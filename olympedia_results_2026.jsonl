@@ -1,0 +1,233 @@
+{"sport": "Alpine Skiing", "event": "Downhill, Men", "athlete_id": "157252", "athlete": "Kyle Negomir", "position": "10", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Downhill, Men", "athlete_id": "138248", "athlete": "Bryce Bennett", "position": "13", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Downhill, Men", "athlete_id": "138251", "athlete": "Ryan Cochran-Siegle", "position": "18", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Downhill, Men", "athlete_id": "157251", "athlete": "Sam Morse", "position": "19", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Super G, Men", "athlete_id": "138251", "athlete": "Ryan Cochran-Siegle", "position": "2", "medal": "Silver", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Super G, Men", "athlete_id": "157251", "athlete": "Sam Morse", "position": "23", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Super G, Men", "athlete_id": "157252", "athlete": "Kyle Negomir", "position": "26", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Super G, Men", "athlete_id": "2302013", "athlete": "River Radamus", "position": "DNF", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Giant Slalom, Men", "athlete_id": "2302013", "athlete": "River Radamus", "position": "17", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Giant Slalom, Men", "athlete_id": "157253", "athlete": "Ryder Sarchett", "position": "25", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Giant Slalom, Men", "athlete_id": "157252", "athlete": "Kyle Negomir", "position": "DNF", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Slalom, Men", "athlete_id": "2302013", "athlete": "River Radamus", "position": "DNF", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Downhill, Women", "athlete_id": "138247", "athlete": "Breezy Johnson", "position": "1", "medal": "Gold", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Downhill, Women", "athlete_id": "128670", "athlete": "Jackie Wiles", "position": "=4", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Downhill, Women", "athlete_id": "149066", "athlete": "Isabella Wright", "position": "21", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Downhill, Women", "athlete_id": "101437", "athlete": "Lindsey Vonn", "position": "DNF", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Super G, Women", "athlete_id": "128670", "athlete": "Jackie Wiles", "position": "13", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Super G, Women", "athlete_id": "2302012", "athlete": "Keely Cashman", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Super G, Women", "athlete_id": "138247", "athlete": "Breezy Johnson", "position": "DNF", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Super G, Women", "athlete_id": "157204", "athlete": "Mary Bocock", "position": "DNF", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Giant Slalom, Women", "athlete_id": "128669", "athlete": "Mikaela Shiffrin", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Giant Slalom, Women", "athlete_id": "149064", "athlete": "Paula Moltzan", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Giant Slalom, Women", "athlete_id": "149065", "athlete": "Nina O'Brien", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Giant Slalom, Women", "athlete_id": "149062", "athlete": "A. J. Hurt", "position": "DNF", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Slalom, Women", "athlete_id": "128669", "athlete": "Mikaela Shiffrin", "position": "1", "medal": "Gold", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Slalom, Women", "athlete_id": "149064", "athlete": "Paula Moltzan", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Slalom, Women", "athlete_id": "149062", "athlete": "A. J. Hurt", "position": "19", "medal": "", "is_team_entry": "no"}
+{"sport": "Alpine Skiing", "event": "Slalom, Women", "athlete_id": "149065", "athlete": "Nina O'Brien", "position": "DNF", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Sprint, Men", "athlete_id": "138808", "athlete": "Campbell Wright", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Sprint, Men", "athlete_id": "149078", "athlete": "Paul Schommer", "position": "47", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Sprint, Men", "athlete_id": "128679", "athlete": "Sean Doherty", "position": "65", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Sprint, Men", "athlete_id": "157259", "athlete": "Maxime Germain", "position": "66", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Pursuit, Men", "athlete_id": "138808", "athlete": "Campbell Wright", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Pursuit, Men", "athlete_id": "149078", "athlete": "Paul Schommer", "position": "48", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Mass Start, Men", "athlete_id": "138808", "athlete": "Campbell Wright", "position": "29", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Individual, Men", "athlete_id": "138808", "athlete": "Campbell Wright", "position": "27", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Individual, Men", "athlete_id": "149078", "athlete": "Paul Schommer", "position": "44", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Individual, Men", "athlete_id": "157259", "athlete": "Maxime Germain", "position": "67", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Individual, Men", "athlete_id": "128679", "athlete": "Sean Doherty", "position": "80", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Sprint, Women", "athlete_id": "149076", "athlete": "Deedra Irwin", "position": "47", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Sprint, Women", "athlete_id": "157211", "athlete": "Margie Freed", "position": "66", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Sprint, Women", "athlete_id": "138257", "athlete": "Joanne Reid", "position": "72", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Sprint, Women", "athlete_id": "157210", "athlete": "Luci Anderson", "position": "79", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Pursuit, Women", "athlete_id": "149076", "athlete": "Deedra Irwin", "position": "35", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Individual, Women", "athlete_id": "157211", "athlete": "Margie Freed", "position": "21", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Individual, Women", "athlete_id": "149076", "athlete": "Deedra Irwin", "position": "34", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Individual, Women", "athlete_id": "138257", "athlete": "Joanne Reid", "position": "68", "medal": "", "is_team_entry": "no"}
+{"sport": "Biathlon", "event": "Individual, Women", "athlete_id": "157210", "athlete": "Luci Anderson", "position": "84", "medal": "", "is_team_entry": "no"}
+{"sport": "Bobsleigh", "event": "Monobob, Women", "athlete_id": "118644", "athlete": "Elana Meyers Taylor", "position": "1", "medal": "Gold", "is_team_entry": "no"}
+{"sport": "Bobsleigh", "event": "Monobob, Women", "athlete_id": "118672", "athlete": "Kaillie Humphries", "position": "3", "medal": "Bronze", "is_team_entry": "no"}
+{"sport": "Bobsleigh", "event": "Monobob, Women", "athlete_id": "149069", "athlete": "Kaysha Love", "position": "7", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Sprint, Men", "athlete_id": "149085", "athlete": "Ben Ogden", "position": "2", "medal": "Silver", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Sprint, Men", "athlete_id": "149086", "athlete": "J. C. Schoonmaker", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Sprint, Men", "athlete_id": "157261", "athlete": "Zak Ketterson", "position": "28", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Sprint, Men", "athlete_id": "149087", "athlete": "Gus Schumacher", "position": "=31", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "10 kilometres, Men", "athlete_id": "157260", "athlete": "John Steel Hagenbuch", "position": "14", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "10 kilometres, Men", "athlete_id": "157262", "athlete": "Zanden McMullen", "position": "32", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "10 kilometres, Men", "athlete_id": "157261", "athlete": "Zak Ketterson", "position": "38", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "10 kilometres, Men", "athlete_id": "149087", "athlete": "Gus Schumacher", "position": "39", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "50 kilometres, Men", "athlete_id": "149087", "athlete": "Gus Schumacher", "position": "13", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "50 kilometres, Men", "athlete_id": "2302020", "athlete": "Hunter Wonders", "position": "35", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "50 kilometres, Men", "athlete_id": "149085", "athlete": "Ben Ogden", "position": "DNS", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Skiathlon, Men", "athlete_id": "149087", "athlete": "Gus Schumacher", "position": "24", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Skiathlon, Men", "athlete_id": "2302020", "athlete": "Hunter Wonders", "position": "31", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Skiathlon, Men", "athlete_id": "157262", "athlete": "Zanden McMullen", "position": "36", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Skiathlon, Men", "athlete_id": "157261", "athlete": "Zak Ketterson", "position": "43", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Sprint, Women", "athlete_id": "149079", "athlete": "Julia Kern", "position": "6", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Sprint, Women", "athlete_id": "128689", "athlete": "Jessie Diggins", "position": "17", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Sprint, Women", "athlete_id": "157213", "athlete": "Sammy Smith", "position": "19", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Sprint, Women", "athlete_id": "157212", "athlete": "Lauren Jortberg", "position": "30", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "10 kilometres, Women", "athlete_id": "128689", "athlete": "Jessie Diggins", "position": "3", "medal": "Bronze", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "10 kilometres, Women", "athlete_id": "149081", "athlete": "Novie McCabe", "position": "31", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "10 kilometres, Women", "athlete_id": "138909", "athlete": "Kendall Kramer", "position": "38", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "10 kilometres, Women", "athlete_id": "149082", "athlete": "Hailey Swirbul", "position": "39", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "50 kilometres, Women", "athlete_id": "128689", "athlete": "Jessie Diggins", "position": "5", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "50 kilometres, Women", "athlete_id": "138267", "athlete": "Rosie Brennan", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "50 kilometres, Women", "athlete_id": "149082", "athlete": "Hailey Swirbul", "position": "19", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "50 kilometres, Women", "athlete_id": "138909", "athlete": "Kendall Kramer", "position": "26", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Skiathlon, Women", "athlete_id": "128689", "athlete": "Jessie Diggins", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Skiathlon, Women", "athlete_id": "149079", "athlete": "Julia Kern", "position": "24", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Skiathlon, Women", "athlete_id": "149081", "athlete": "Novie McCabe", "position": "26", "medal": "", "is_team_entry": "no"}
+{"sport": "Cross Country Skiing", "event": "Skiathlon, Women", "athlete_id": "138267", "athlete": "Rosie Brennan", "position": "37", "medal": "", "is_team_entry": "no"}
+{"sport": "Figure Skating", "event": "Singles, Men", "athlete_id": "157277", "athlete": "Ilia Malinin", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Figure Skating", "event": "Singles, Men", "athlete_id": "157281", "athlete": "Andrew Torgashev", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Figure Skating", "event": "Singles, Men", "athlete_id": "157278", "athlete": "Maxim Naumov", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Figure Skating", "event": "Singles, Women", "athlete_id": "149110", "athlete": "Alysa Liu", "position": "1", "medal": "Gold", "is_team_entry": "no"}
+{"sport": "Figure Skating", "event": "Singles, Women", "athlete_id": "157223", "athlete": "Amber Glenn", "position": "5", "medal": "", "is_team_entry": "no"}
+{"sport": "Figure Skating", "event": "Singles, Women", "athlete_id": "157225", "athlete": "Isabeau Levito", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Moguls, Men", "athlete_id": "149102", "athlete": "Nick Page", "position": "7", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Moguls, Men", "athlete_id": "157271", "athlete": "Charlie Mickel", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Moguls, Men", "athlete_id": "149105", "athlete": "Dylan Walczyk", "position": "13", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Moguls, Men", "athlete_id": "157274", "athlete": "Landon Wendler", "position": "17", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Aerials, Men", "athlete_id": "149100", "athlete": "Chris Lillis", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Aerials, Men", "athlete_id": "157270", "athlete": "Derek Krueger", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Aerials, Men", "athlete_id": "157267", "athlete": "Connor Curran", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Aerials, Men", "athlete_id": "157268", "athlete": "Quinn Dehlinger", "position": "DNS", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Halfpipe, Men", "athlete_id": "138294", "athlete": "Alex Ferreira", "position": "1", "medal": "Gold", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Halfpipe, Men", "athlete_id": "128711", "athlete": "Nick Goepper", "position": "4", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Halfpipe, Men", "athlete_id": "2302026", "athlete": "Birk Irving", "position": "5", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Halfpipe, Men", "athlete_id": "157269", "athlete": "Hunter Hess", "position": "10", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Slopestyle, Men", "athlete_id": "138295", "athlete": "Alex Hall", "position": "2", "medal": "Silver", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Dual Moguls, Men", "athlete_id": "157271", "athlete": "Charlie Mickel", "position": "6", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Dual Moguls, Men", "athlete_id": "149105", "athlete": "Dylan Walczyk", "position": "7", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Slopestyle, Men", "athlete_id": "157273", "athlete": "Konnor Ralph", "position": "9", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Slopestyle, Men", "athlete_id": "149099", "athlete": "Mac Forehand", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Dual Moguls, Men", "athlete_id": "149102", "athlete": "Nick Page", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Dual Moguls, Men", "athlete_id": "157274", "athlete": "Landon Wendler", "position": "26", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Slopestyle, Men", "athlete_id": "157272", "athlete": "Troy Podmilsak", "position": "28", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Big Air, Men", "athlete_id": "149099", "athlete": "Mac Forehand", "position": "2", "medal": "Silver", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Big Air, Men", "athlete_id": "157272", "athlete": "Troy Podmilsak", "position": "4", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Big Air, Men", "athlete_id": "157273", "athlete": "Konnor Ralph", "position": "5", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Big Air, Men", "athlete_id": "138295", "athlete": "Alex Hall", "position": "26", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Moguls, Women", "athlete_id": "1806313", "athlete": "Liz Lemley", "position": "1", "medal": "Gold", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Moguls, Women", "athlete_id": "138286", "athlete": "Jaelin Kauf", "position": "2", "medal": "Silver", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Moguls, Women", "athlete_id": "149091", "athlete": "Olivia Giaccio", "position": "9", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Moguls, Women", "athlete_id": "138285", "athlete": "Tess Johnson", "position": "10", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Aerials, Women", "athlete_id": "149093", "athlete": "Kaila Kuhn", "position": "5", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Aerials, Women", "athlete_id": "149098", "athlete": "Winter Vinecki", "position": "6", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Aerials, Women", "athlete_id": "157219", "athlete": "Tasia Tanner", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Aerials, Women", "athlete_id": "157214", "athlete": "Kyra Dossa", "position": "14", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Halfpipe, Women", "athlete_id": "1805937", "athlete": "Kate Gray", "position": "10", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Halfpipe, Women", "athlete_id": "157217", "athlete": "Svea Irving", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Halfpipe, Women", "athlete_id": "157220", "athlete": "Abby Winterberger", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Halfpipe, Women", "athlete_id": "140320", "athlete": "Riley Jacobs", "position": "18", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Slopestyle, Women", "athlete_id": "157218", "athlete": "Avery Krumme", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Slopestyle, Women", "athlete_id": "157216", "athlete": "Grace Henderson", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Slopestyle, Women", "athlete_id": "149092", "athlete": "Marin Hamill", "position": "16", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Slopestyle, Women", "athlete_id": "157215", "athlete": "Rell Harwood", "position": "DNS", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Big Air, Women", "athlete_id": "157216", "athlete": "Grace Henderson", "position": "14", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Big Air, Women", "athlete_id": "157218", "athlete": "Avery Krumme", "position": "19", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Big Air, Women", "athlete_id": "149092", "athlete": "Marin Hamill", "position": "22", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Big Air, Women", "athlete_id": "157215", "athlete": "Rell Harwood", "position": "23", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Dual Moguls, Women", "athlete_id": "138286", "athlete": "Jaelin Kauf", "position": "2", "medal": "Silver", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Dual Moguls, Women", "athlete_id": "1806313", "athlete": "Liz Lemley", "position": "3", "medal": "Bronze", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Dual Moguls, Women", "athlete_id": "138285", "athlete": "Tess Johnson", "position": "5", "medal": "", "is_team_entry": "no"}
+{"sport": "Freestyle Skiing", "event": "Dual Moguls, Women", "athlete_id": "149091", "athlete": "Olivia Giaccio", "position": "6", "medal": "", "is_team_entry": "no"}
+{"sport": "Luge", "event": "Singles, Men", "athlete_id": "149147", "athlete": "Jonathan Gustafson", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Luge", "event": "Singles, Men", "athlete_id": "139817", "athlete": "Matthew Greiner", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Luge", "event": "Singles, Women", "athlete_id": "2302054", "athlete": "Ashley Farquharson", "position": "3", "medal": "Bronze", "is_team_entry": "no"}
+{"sport": "Luge", "event": "Singles, Women", "athlete_id": "138347", "athlete": "Emily Fischnaller", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Luge", "event": "Singles, Women", "athlete_id": "128750", "athlete": "Summer Britcher", "position": "14", "medal": "", "is_team_entry": "no"}
+{"sport": "Nordic Combined", "event": "Individual, Men", "athlete_id": "138353", "athlete": "Ben Loomis", "position": "17", "medal": "", "is_team_entry": "no"}
+{"sport": "Nordic Combined", "event": "Individual, Men", "athlete_id": "139843", "athlete": "Niklas Malacinski", "position": "18", "medal": "", "is_team_entry": "no"}
+{"sport": "Nordic Combined", "event": "Sprint, Men", "athlete_id": "139843", "athlete": "Niklas Malacinski", "position": "13", "medal": "", "is_team_entry": "no"}
+{"sport": "Nordic Combined", "event": "Sprint, Men", "athlete_id": "138353", "athlete": "Ben Loomis", "position": "27", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "500 metres, Men", "athlete_id": "149170", "athlete": "Andrew Heo", "position": "13", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "500 metres, Men", "athlete_id": "157316", "athlete": "Brandon Kim", "position": "=29", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,000 metres, Men", "athlete_id": "157315", "athlete": "Clayton DeClemente", "position": "16", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,000 metres, Men", "athlete_id": "157316", "athlete": "Brandon Kim", "position": "=31", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,500 metres, Men", "athlete_id": "149170", "athlete": "Andrew Heo", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,500 metres, Men", "athlete_id": "157316", "athlete": "Brandon Kim", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,500 metres, Men", "athlete_id": "157315", "athlete": "Clayton DeClemente", "position": "32", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "500 metres, Women", "athlete_id": "149168", "athlete": "Kristen Santos-Griswold", "position": "9", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "500 metres, Women", "athlete_id": "149167", "athlete": "Julie Letai", "position": "16", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "500 metres, Women", "athlete_id": "149169", "athlete": "Corie Stoddard", "position": "31", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,000 metres, Women", "athlete_id": "149168", "athlete": "Kristen Santos-Griswold", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,000 metres, Women", "athlete_id": "149169", "athlete": "Corie Stoddard", "position": "24", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,000 metres, Women", "athlete_id": "149167", "athlete": "Julie Letai", "position": "28", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,500 metres, Women", "athlete_id": "149169", "athlete": "Corie Stoddard", "position": "3", "medal": "Bronze", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,500 metres, Women", "athlete_id": "157250", "athlete": "Kamryn Lute", "position": "23", "medal": "", "is_team_entry": "no"}
+{"sport": "Short Track Speed Skating", "event": "1,500 metres, Women", "athlete_id": "149168", "athlete": "Kristen Santos-Griswold", "position": "=33", "medal": "", "is_team_entry": "no"}
+{"sport": "Skeleton", "event": "Skeleton, Men", "athlete_id": "157310", "athlete": "Austin Florian", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Skeleton", "event": "Skeleton, Men", "athlete_id": "157309", "athlete": "Dan Barefoot", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Skeleton", "event": "Skeleton, Women", "athlete_id": "149159", "athlete": "Kelly Curtis", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Skeleton", "event": "Skeleton, Women", "athlete_id": "157247", "athlete": "Mystique Ro", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Normal Hill, Individual, Men", "athlete_id": "1805696", "athlete": "Jason Colby", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Normal Hill, Individual, Men", "athlete_id": "157308", "athlete": "Tate Frantz", "position": "=21", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Normal Hill, Individual, Men", "athlete_id": "138357", "athlete": "Kevin Bickner", "position": "33", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Large Hill, Individual, Men", "athlete_id": "157308", "athlete": "Tate Frantz", "position": "19", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Large Hill, Individual, Men", "athlete_id": "138357", "athlete": "Kevin Bickner", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Large Hill, Individual, Men", "athlete_id": "1805696", "athlete": "Jason Colby", "position": "31", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Normal Hill, Individual, Women", "athlete_id": "140047", "athlete": "Annika Belshaw", "position": "21", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Normal Hill, Individual, Women", "athlete_id": "140024", "athlete": "Paige Jones", "position": "23", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Normal Hill, Individual, Women", "athlete_id": "1806097", "athlete": "Josie Johnson", "position": "27", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Large Hill, Individual, Women", "athlete_id": "140024", "athlete": "Paige Jones", "position": "28", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Large Hill, Individual, Women", "athlete_id": "1806097", "athlete": "Josie Johnson", "position": "29", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Jumping", "event": "Large Hill, Individual, Women", "athlete_id": "140047", "athlete": "Annika Belshaw", "position": "DQ", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Mountaineering", "event": "Sprint, Men", "athlete_id": "157311", "athlete": "Cam Smith", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Ski Mountaineering", "event": "Sprint, Women", "athlete_id": "157248", "athlete": "Anna Gibson", "position": "9", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Parallel Giant Slalom, Men", "athlete_id": "149156", "athlete": "Cody Winters", "position": "21", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Slopestyle, Men", "athlete_id": "157306", "athlete": "Jake Canter", "position": "3", "medal": "Bronze", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Slopestyle, Men", "athlete_id": "138371", "athlete": "Red Gerard", "position": "6", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Slopestyle, Men", "athlete_id": "1806403", "athlete": "Oliver Martin", "position": "9", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Slopestyle, Men", "athlete_id": "149154", "athlete": "Sean FitzSimons", "position": "26", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Halfpipe, Men", "athlete_id": "138376", "athlete": "Jake Pates", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Halfpipe, Men", "athlete_id": "1805512", "athlete": "Alessandro Barbieri", "position": "10", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Halfpipe, Men", "athlete_id": "138372", "athlete": "Chase Josey", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Halfpipe, Men", "athlete_id": "157305", "athlete": "Chase Blackwell", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Cross, Men", "athlete_id": "119606", "athlete": "Nick Baumgartner", "position": "7", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Cross, Men", "athlete_id": "2302065", "athlete": "Jake Vedder", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Cross, Men", "athlete_id": "157307", "athlete": "Nathan Pare", "position": "16", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Cross, Men", "athlete_id": "149156", "athlete": "Cody Winters", "position": "22", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Big Air, Men", "athlete_id": "1806403", "athlete": "Oliver Martin", "position": "4", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Big Air, Men", "athlete_id": "157306", "athlete": "Jake Canter", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Big Air, Men", "athlete_id": "138371", "athlete": "Red Gerard", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Big Air, Men", "athlete_id": "149154", "athlete": "Sean FitzSimons", "position": "25", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Parallel Giant Slalom, Women", "athlete_id": "157245", "athlete": "Iris Pflum", "position": "30", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Slopestyle, Women", "athlete_id": "157244", "athlete": "Jess Perlmutter", "position": "6", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Slopestyle, Women", "athlete_id": "157241", "athlete": "Lily Dhawornvej", "position": "11", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Slopestyle, Women", "athlete_id": "157243", "athlete": "Hahna Norman", "position": "25", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Halfpipe, Women", "athlete_id": "138361", "athlete": "Chloe Kim", "position": "2", "medal": "Silver", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Halfpipe, Women", "athlete_id": "157242", "athlete": "Bea Kim", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Halfpipe, Women", "athlete_id": "138365", "athlete": "Maddie Mastro", "position": "12", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Halfpipe, Women", "athlete_id": "157246", "athlete": "Maddy Schaffrick", "position": "15", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Cross, Women", "athlete_id": "119570", "athlete": "Faye Thelen", "position": "7", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Cross, Women", "athlete_id": "149151", "athlete": "Stacy Gaskill", "position": "14", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Cross, Women", "athlete_id": "1806639", "athlete": "Hanna Percy", "position": "18", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Cross, Women", "athlete_id": "1806837", "athlete": "Bri Schnorrbusch", "position": "19", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Big Air, Women", "athlete_id": "157241", "athlete": "Lily Dhawornvej", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Big Air, Women", "athlete_id": "157244", "athlete": "Jess Perlmutter", "position": "23", "medal": "", "is_team_entry": "no"}
+{"sport": "Snowboarding", "event": "Big Air, Women", "athlete_id": "157243", "athlete": "Hahna Norman", "position": "28", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "500 metres, Men", "athlete_id": "140168", "athlete": "Jordan Stolz", "position": "1", "medal": "Gold", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "500 metres, Men", "athlete_id": "157313", "athlete": "Cooper McLeod", "position": "22", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "500 metres, Men", "athlete_id": "157314", "athlete": "Zach Stoppelmoor", "position": "27", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,000 metres, Men", "athlete_id": "140168", "athlete": "Jordan Stolz", "position": "1", "medal": "Gold", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,000 metres, Men", "athlete_id": "157312", "athlete": "Conor McDermott-Mostowy", "position": "9", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,000 metres, Men", "athlete_id": "157313", "athlete": "Cooper McLeod", "position": "19", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,500 metres, Men", "athlete_id": "140168", "athlete": "Jordan Stolz", "position": "2", "medal": "Silver", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,500 metres, Men", "athlete_id": "128783", "athlete": "Emery Lehman", "position": "25", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,500 metres, Men", "athlete_id": "149164", "athlete": "Casey Dawson", "position": "29", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "5,000 metres, Men", "athlete_id": "149164", "athlete": "Casey Dawson", "position": "8", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "10,000 metres, Men", "athlete_id": "149164", "athlete": "Casey Dawson", "position": "DNS", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "Mass Start, Men", "athlete_id": "140168", "athlete": "Jordan Stolz", "position": "4", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "Mass Start, Men", "athlete_id": "149163", "athlete": "Ethan Cepuran", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "500 metres, Women", "athlete_id": "138378", "athlete": "Erin Jackson", "position": "5", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "500 metres, Women", "athlete_id": "2301021", "athlete": "Sarah Warren", "position": "28", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,000 metres, Women", "athlete_id": "128778", "athlete": "Brittany Bowe", "position": "4", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,000 metres, Women", "athlete_id": "138378", "athlete": "Erin Jackson", "position": "6", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,500 metres, Women", "athlete_id": "128778", "athlete": "Brittany Bowe", "position": "4", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "1,500 metres, Women", "athlete_id": "157249", "athlete": "Greta Myers", "position": "29", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "3,000 metres, Women", "athlete_id": "157249", "athlete": "Greta Myers", "position": "20", "medal": "", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "Mass Start, Women", "athlete_id": "138379", "athlete": "Mia Manganello", "position": "3", "medal": "Bronze", "is_team_entry": "no"}
+{"sport": "Speed Skating", "event": "Mass Start, Women", "athlete_id": "157249", "athlete": "Greta Myers", "position": "12", "medal": "", "is_team_entry": "no"}
