@@ -1,0 +1,283 @@
+athlete_id,games_year,events_entered,medal_count,any_gold,any_silver,any_bronze,any_medal,best_position,sports
+101437,2026,1,0,False,False,False,False,,Alpine Skiing
+109860,2022,1,0,False,False,False,False,4.0,Snowboarding
+110429,2022,1,0,False,False,False,False,6.0,Skeleton
+110950,2022,1,1,True,False,False,True,1.0,Snowboarding
+118481,2022,1,0,False,False,False,False,12.0,Alpine Skiing
+118644,2022,1,1,False,True,False,True,2.0,Bobsleigh
+118644,2026,1,1,True,False,False,True,1.0,Bobsleigh
+118672,2022,1,1,True,False,False,True,1.0,Bobsleigh
+118672,2026,1,1,False,False,True,True,3.0,Bobsleigh
+118948,2022,1,0,False,False,False,False,4.0,Freestyle Skiing
+119429,2022,1,0,False,False,False,False,8.0,Luge
+119483,2022,2,0,False,False,False,False,23.0,Nordic Combined
+119570,2022,1,0,False,False,False,False,,Snowboarding
+119570,2026,1,0,False,False,False,False,7.0,Snowboarding
+119606,2022,1,0,False,False,False,False,,Snowboarding
+119606,2026,1,0,False,False,False,False,7.0,Snowboarding
+128669,2022,5,0,False,False,False,False,9.0,Alpine Skiing
+128669,2026,2,1,True,False,False,True,1.0,Alpine Skiing
+128670,2022,1,0,False,False,False,False,21.0,Alpine Skiing
+128670,2026,2,0,False,False,False,False,13.0,Alpine Skiing
+128672,2022,2,0,False,False,False,False,12.0,Alpine Skiing
+128677,2022,3,0,False,False,False,False,27.0,Biathlon
+128679,2022,3,0,False,False,False,False,42.0,Biathlon
+128679,2026,2,0,False,False,False,False,65.0,Biathlon
+128680,2022,2,0,False,False,False,False,83.0,Biathlon
+128689,2022,4,2,False,True,True,True,2.0,Cross Country Skiing
+128689,2026,4,1,False,False,True,True,3.0,Cross Country Skiing
+128702,2022,1,0,False,False,False,False,13.0,Freestyle Skiing
+128704,2022,1,0,False,False,False,False,10.0,Freestyle Skiing
+128706,2022,1,0,False,False,False,False,7.0,Freestyle Skiing
+128711,2022,2,1,False,True,False,True,2.0,Freestyle Skiing
+128711,2026,1,0,False,False,False,False,4.0,Freestyle Skiing
+128714,2022,1,0,False,False,False,False,25.0,Freestyle Skiing
+128715,2022,1,1,False,True,False,True,2.0,Freestyle Skiing
+128725,2022,1,0,False,False,False,False,6.0,Figure Skating
+128750,2022,1,0,False,False,False,False,23.0,Luge
+128750,2026,1,0,False,False,False,False,14.0,Luge
+128755,2022,1,0,False,False,False,False,13.0,Luge
+128763,2022,2,0,False,False,False,False,9.0,Snowboarding
+128772,2022,1,0,False,False,False,False,5.0,Snowboarding
+128778,2022,3,1,False,False,True,True,3.0,Speed Skating
+128778,2026,2,0,False,False,False,False,4.0,Speed Skating
+128783,2022,2,0,False,False,False,False,11.0,Speed Skating
+128783,2026,1,0,False,False,False,False,25.0,Speed Skating
+128784,2022,2,0,False,False,False,False,4.0,Speed Skating
+138247,2026,2,1,True,False,False,True,1.0,Alpine Skiing
+138248,2022,2,0,False,False,False,False,17.0,Alpine Skiing
+138248,2026,1,0,False,False,False,False,13.0,Alpine Skiing
+138251,2022,3,1,False,True,False,True,2.0,Alpine Skiing
+138251,2026,2,1,False,True,False,True,2.0,Alpine Skiing
+138255,2022,3,0,False,False,False,False,38.0,Biathlon
+138257,2022,3,0,False,False,False,False,29.0,Biathlon
+138257,2026,2,0,False,False,False,False,68.0,Biathlon
+138267,2022,4,0,False,False,False,False,4.0,Cross Country Skiing
+138267,2026,2,0,False,False,False,False,15.0,Cross Country Skiing
+138276,2022,3,0,False,False,False,False,8.0,Cross Country Skiing
+138284,2022,2,0,False,False,False,False,24.0,Freestyle Skiing
+138285,2026,2,0,False,False,False,False,5.0,Freestyle Skiing
+138286,2022,1,1,False,True,False,True,2.0,Freestyle Skiing
+138286,2026,2,2,False,True,False,True,2.0,Freestyle Skiing
+138291,2022,2,0,False,False,False,False,11.0,Freestyle Skiing
+138292,2022,2,0,False,False,False,False,5.0,Freestyle Skiing
+138294,2022,1,1,False,False,True,True,3.0,Freestyle Skiing
+138294,2026,1,1,True,False,False,True,1.0,Freestyle Skiing
+138295,2022,2,1,True,False,False,True,1.0,Freestyle Skiing
+138295,2026,2,1,False,True,False,True,2.0,Freestyle Skiing
+138297,2022,1,0,False,False,False,False,12.0,Freestyle Skiing
+138301,2022,1,0,False,False,False,False,15.0,Figure Skating
+138305,2022,1,1,True,False,False,True,1.0,Figure Skating
+138309,2022,1,0,False,False,False,False,,Figure Skating
+138347,2022,1,0,False,False,False,False,26.0,Luge
+138347,2026,1,0,False,False,False,False,12.0,Luge
+138352,2022,1,0,False,False,False,False,34.0,Nordic Combined
+138353,2022,2,0,False,False,False,False,15.0,Nordic Combined
+138353,2026,2,0,False,False,False,False,17.0,Nordic Combined
+138357,2022,2,0,False,False,False,False,39.0,Ski Jumping
+138357,2026,2,0,False,False,False,False,20.0,Ski Jumping
+138359,2022,2,0,False,False,False,False,39.0,Ski Jumping
+138361,2022,1,1,True,False,False,True,1.0,Snowboarding
+138361,2026,1,1,False,True,False,True,2.0,Snowboarding
+138362,2022,2,0,False,False,False,False,11.0,Snowboarding
+138364,2022,2,1,False,True,False,True,2.0,Snowboarding
+138365,2022,1,0,False,False,False,False,13.0,Snowboarding
+138365,2026,1,0,False,False,False,False,12.0,Snowboarding
+138366,2022,1,0,False,False,False,False,,Snowboarding
+138368,2022,2,0,False,False,False,False,6.0,Snowboarding
+138369,2022,1,0,False,False,False,False,,Snowboarding
+138371,2022,2,0,False,False,False,False,4.0,Snowboarding
+138371,2026,2,0,False,False,False,False,6.0,Snowboarding
+138372,2022,1,0,False,False,False,False,7.0,Snowboarding
+138372,2026,1,0,False,False,False,False,11.0,Snowboarding
+138373,2022,1,0,False,False,False,False,,Snowboarding
+138376,2026,1,0,False,False,False,False,8.0,Snowboarding
+138378,2022,1,1,True,False,False,True,1.0,Speed Skating
+138378,2026,2,0,False,False,False,False,5.0,Speed Skating
+138379,2022,3,0,False,False,False,False,4.0,Speed Skating
+138379,2026,1,1,False,False,True,True,3.0,Speed Skating
+138383,2022,2,0,False,False,False,False,9.0,Short Track Speed Skating
+138396,2022,1,0,False,False,False,False,11.0,Alpine Skiing
+138808,2026,4,0,False,False,False,False,8.0,Biathlon
+138909,2026,2,0,False,False,False,False,26.0,Cross Country Skiing
+139199,2022,1,0,False,False,False,False,6.0,Freestyle Skiing
+139817,2026,1,0,False,False,False,False,20.0,Luge
+139843,2026,2,0,False,False,False,False,13.0,Nordic Combined
+139945,2022,2,0,False,False,False,False,17.0,Snowboarding
+139946,2022,2,0,False,False,False,False,17.0,Snowboarding
+139954,2022,1,0,False,False,False,False,16.0,Snowboarding
+140024,2026,2,0,False,False,False,False,23.0,Ski Jumping
+140047,2026,2,0,False,False,False,False,21.0,Ski Jumping
+140168,2022,2,0,False,False,False,False,13.0,Speed Skating
+140168,2026,4,3,True,True,False,True,1.0,Speed Skating
+140320,2026,1,0,False,False,False,False,18.0,Freestyle Skiing
+149061,2022,1,0,False,False,False,False,26.0,Alpine Skiing
+149062,2022,2,0,False,False,False,False,34.0,Alpine Skiing
+149062,2026,2,0,False,False,False,False,19.0,Alpine Skiing
+149064,2022,2,0,False,False,False,False,8.0,Alpine Skiing
+149064,2026,2,0,False,False,False,False,8.0,Alpine Skiing
+149065,2022,1,0,False,False,False,False,,Alpine Skiing
+149065,2026,2,0,False,False,False,False,20.0,Alpine Skiing
+149066,2022,2,0,False,False,False,False,21.0,Alpine Skiing
+149066,2026,1,0,False,False,False,False,21.0,Alpine Skiing
+149067,2022,2,0,False,False,False,False,,Alpine Skiing
+149069,2026,1,0,False,False,False,False,7.0,Bobsleigh
+149076,2022,4,0,False,False,False,False,7.0,Biathlon
+149076,2026,3,0,False,False,False,False,34.0,Biathlon
+149077,2022,3,0,False,False,False,False,28.0,Biathlon
+149078,2022,2,0,False,False,False,False,35.0,Biathlon
+149078,2026,3,0,False,False,False,False,44.0,Biathlon
+149079,2022,2,0,False,False,False,False,18.0,Cross Country Skiing
+149079,2026,2,0,False,False,False,False,6.0,Cross Country Skiing
+149080,2022,1,0,False,False,False,False,15.0,Cross Country Skiing
+149081,2022,2,0,False,False,False,False,18.0,Cross Country Skiing
+149081,2026,2,0,False,False,False,False,26.0,Cross Country Skiing
+149082,2022,2,0,False,False,False,False,32.0,Cross Country Skiing
+149082,2026,2,0,False,False,False,False,19.0,Cross Country Skiing
+149083,2022,1,0,False,False,False,False,17.0,Cross Country Skiing
+149084,2022,1,0,False,False,False,False,25.0,Cross Country Skiing
+149085,2022,2,0,False,False,False,False,12.0,Cross Country Skiing
+149085,2026,2,1,False,True,False,True,2.0,Cross Country Skiing
+149086,2022,2,0,False,False,False,False,15.0,Cross Country Skiing
+149086,2026,1,0,False,False,False,False,8.0,Cross Country Skiing
+149087,2022,2,0,False,False,False,False,39.0,Cross Country Skiing
+149087,2026,4,0,False,False,False,False,13.0,Cross Country Skiing
+149091,2022,1,0,False,False,False,False,6.0,Freestyle Skiing
+149091,2026,2,0,False,False,False,False,6.0,Freestyle Skiing
+149092,2022,2,0,False,False,False,False,12.0,Freestyle Skiing
+149092,2026,2,0,False,False,False,False,16.0,Freestyle Skiing
+149093,2022,1,0,False,False,False,False,8.0,Freestyle Skiing
+149093,2026,1,0,False,False,False,False,5.0,Freestyle Skiing
+149094,2022,1,0,False,False,False,False,11.0,Freestyle Skiing
+149095,2022,1,1,False,False,True,True,3.0,Freestyle Skiing
+149096,2022,1,0,False,False,False,False,10.0,Freestyle Skiing
+149097,2022,1,0,False,False,False,False,7.0,Freestyle Skiing
+149098,2022,1,0,False,False,False,False,15.0,Freestyle Skiing
+149098,2026,1,0,False,False,False,False,6.0,Freestyle Skiing
+149099,2022,2,0,False,False,False,False,11.0,Freestyle Skiing
+149099,2026,2,1,False,True,False,True,2.0,Freestyle Skiing
+149100,2022,1,0,False,False,False,False,6.0,Freestyle Skiing
+149100,2026,1,0,False,False,False,False,8.0,Freestyle Skiing
+149101,2022,1,0,False,False,False,False,14.0,Freestyle Skiing
+149102,2022,1,0,False,False,False,False,5.0,Freestyle Skiing
+149102,2026,2,0,False,False,False,False,7.0,Freestyle Skiing
+149103,2022,1,0,False,False,False,False,5.0,Freestyle Skiing
+149104,2022,2,1,False,True,False,True,2.0,Freestyle Skiing
+149105,2022,1,0,False,False,False,False,16.0,Freestyle Skiing
+149105,2026,2,0,False,False,False,False,7.0,Freestyle Skiing
+149106,2022,1,0,False,False,False,False,28.0,Freestyle Skiing
+149107,2022,1,0,False,False,False,False,9.0,Figure Skating
+149110,2022,1,0,False,False,False,False,6.0,Figure Skating
+149110,2026,1,1,True,False,False,True,1.0,Figure Skating
+149147,2022,1,0,False,False,False,False,19.0,Luge
+149147,2026,1,0,False,False,False,False,11.0,Luge
+149149,2022,1,0,False,False,False,False,25.0,Nordic Combined
+149150,2022,2,0,False,False,False,False,17.0,Nordic Combined
+149151,2022,1,0,False,False,False,False,7.0,Snowboarding
+149151,2026,1,0,False,False,False,False,14.0,Snowboarding
+149152,2022,1,0,False,False,False,False,17.0,Snowboarding
+149153,2022,1,0,False,False,False,False,31.0,Snowboarding
+149154,2022,2,0,False,False,False,False,12.0,Snowboarding
+149154,2026,2,0,False,False,False,False,25.0,Snowboarding
+149155,2022,1,0,False,False,False,False,17.0,Snowboarding
+149156,2022,1,0,False,False,False,False,29.0,Snowboarding
+149156,2026,2,0,False,False,False,False,21.0,Snowboarding
+149157,2022,2,0,False,False,False,False,44.0,Ski Jumping
+149158,2022,2,0,False,False,False,False,49.0,Ski Jumping
+149159,2022,1,0,False,False,False,False,21.0,Skeleton
+149159,2026,1,0,False,False,False,False,12.0,Skeleton
+149160,2022,1,0,False,False,False,False,21.0,Skeleton
+149161,2022,1,0,False,False,False,False,12.0,Speed Skating
+149162,2022,2,0,False,False,False,False,7.0,Speed Skating
+149163,2022,1,0,False,False,False,False,17.0,Speed Skating
+149163,2026,1,0,False,False,False,False,20.0,Speed Skating
+149164,2022,1,0,False,False,False,False,28.0,Speed Skating
+149164,2026,3,0,False,False,False,False,8.0,Speed Skating
+149165,2022,1,0,False,False,False,False,26.0,Speed Skating
+149167,2022,1,0,False,False,False,False,21.0,Short Track Speed Skating
+149167,2026,2,0,False,False,False,False,16.0,Short Track Speed Skating
+149168,2022,3,0,False,False,False,False,4.0,Short Track Speed Skating
+149168,2026,3,0,False,False,False,False,9.0,Short Track Speed Skating
+149169,2022,3,0,False,False,False,False,7.0,Short Track Speed Skating
+149169,2026,3,1,False,False,True,True,3.0,Short Track Speed Skating
+149170,2022,2,0,False,False,False,False,7.0,Short Track Speed Skating
+149170,2026,2,0,False,False,False,False,11.0,Short Track Speed Skating
+149180,2022,1,0,False,False,False,False,37.0,Ski Jumping
+149183,2022,2,0,False,False,False,False,,Alpine Skiing
+157204,2026,1,0,False,False,False,False,,Alpine Skiing
+157210,2026,2,0,False,False,False,False,79.0,Biathlon
+157211,2026,2,0,False,False,False,False,21.0,Biathlon
+157212,2026,1,0,False,False,False,False,30.0,Cross Country Skiing
+157213,2026,1,0,False,False,False,False,19.0,Cross Country Skiing
+157214,2026,1,0,False,False,False,False,14.0,Freestyle Skiing
+157215,2026,2,0,False,False,False,False,23.0,Freestyle Skiing
+157216,2026,2,0,False,False,False,False,14.0,Freestyle Skiing
+157217,2026,1,0,False,False,False,False,11.0,Freestyle Skiing
+157218,2026,2,0,False,False,False,False,11.0,Freestyle Skiing
+157219,2026,1,0,False,False,False,False,11.0,Freestyle Skiing
+157220,2026,1,0,False,False,False,False,15.0,Freestyle Skiing
+157223,2026,1,0,False,False,False,False,5.0,Figure Skating
+157225,2026,1,0,False,False,False,False,12.0,Figure Skating
+157241,2026,2,0,False,False,False,False,11.0,Snowboarding
+157242,2026,1,0,False,False,False,False,8.0,Snowboarding
+157243,2026,2,0,False,False,False,False,25.0,Snowboarding
+157244,2026,2,0,False,False,False,False,6.0,Snowboarding
+157245,2026,1,0,False,False,False,False,30.0,Snowboarding
+157246,2026,1,0,False,False,False,False,15.0,Snowboarding
+157247,2026,1,0,False,False,False,False,15.0,Skeleton
+157248,2026,1,0,False,False,False,False,9.0,Ski Mountaineering
+157249,2026,3,0,False,False,False,False,12.0,Speed Skating
+157250,2026,1,0,False,False,False,False,23.0,Short Track Speed Skating
+157251,2026,2,0,False,False,False,False,19.0,Alpine Skiing
+157252,2026,3,0,False,False,False,False,10.0,Alpine Skiing
+157253,2026,1,0,False,False,False,False,25.0,Alpine Skiing
+157259,2026,2,0,False,False,False,False,66.0,Biathlon
+157260,2026,1,0,False,False,False,False,14.0,Cross Country Skiing
+157261,2026,3,0,False,False,False,False,28.0,Cross Country Skiing
+157262,2026,2,0,False,False,False,False,32.0,Cross Country Skiing
+157267,2026,1,0,False,False,False,False,12.0,Freestyle Skiing
+157268,2026,1,0,False,False,False,False,,Freestyle Skiing
+157269,2026,1,0,False,False,False,False,10.0,Freestyle Skiing
+157270,2026,1,0,False,False,False,False,11.0,Freestyle Skiing
+157271,2026,2,0,False,False,False,False,6.0,Freestyle Skiing
+157272,2026,2,0,False,False,False,False,4.0,Freestyle Skiing
+157273,2026,2,0,False,False,False,False,5.0,Freestyle Skiing
+157274,2026,2,0,False,False,False,False,17.0,Freestyle Skiing
+157277,2026,1,0,False,False,False,False,8.0,Figure Skating
+157278,2026,1,0,False,False,False,False,20.0,Figure Skating
+157281,2026,1,0,False,False,False,False,12.0,Figure Skating
+157305,2026,1,0,False,False,False,False,15.0,Snowboarding
+157306,2026,2,1,False,False,True,True,3.0,Snowboarding
+157307,2026,1,0,False,False,False,False,16.0,Snowboarding
+157308,2026,2,0,False,False,False,False,19.0,Ski Jumping
+157309,2026,1,0,False,False,False,False,20.0,Skeleton
+157310,2026,1,0,False,False,False,False,12.0,Skeleton
+157311,2026,1,0,False,False,False,False,11.0,Ski Mountaineering
+157312,2026,1,0,False,False,False,False,9.0,Speed Skating
+157313,2026,2,0,False,False,False,False,19.0,Speed Skating
+157314,2026,1,0,False,False,False,False,27.0,Speed Skating
+157315,2026,2,0,False,False,False,False,16.0,Short Track Speed Skating
+157316,2026,3,0,False,False,False,False,15.0,Short Track Speed Skating
+1800042,2022,3,0,False,False,False,False,13.0,Short Track Speed Skating
+1805512,2026,1,0,False,False,False,False,10.0,Snowboarding
+1805696,2026,2,0,False,False,False,False,20.0,Ski Jumping
+1805937,2026,1,0,False,False,False,False,10.0,Freestyle Skiing
+1806097,2026,2,0,False,False,False,False,27.0,Ski Jumping
+1806313,2026,2,2,True,False,True,True,1.0,Freestyle Skiing
+1806403,2026,2,0,False,False,False,False,4.0,Snowboarding
+1806639,2026,1,0,False,False,False,False,18.0,Snowboarding
+1806837,2026,1,0,False,False,False,False,19.0,Snowboarding
+2301021,2026,1,0,False,False,False,False,28.0,Speed Skating
+2302012,2022,3,0,False,False,False,False,17.0,Alpine Skiing
+2302012,2026,1,0,False,False,False,False,15.0,Alpine Skiing
+2302013,2022,2,0,False,False,False,False,4.0,Alpine Skiing
+2302013,2026,3,0,False,False,False,False,17.0,Alpine Skiing
+2302019,2022,1,0,False,False,False,False,43.0,Cross Country Skiing
+2302020,2026,2,0,False,False,False,False,31.0,Cross Country Skiing
+2302026,2022,1,0,False,False,False,False,5.0,Freestyle Skiing
+2302026,2026,1,0,False,False,False,False,5.0,Freestyle Skiing
+2302054,2022,1,0,False,False,False,False,12.0,Luge
+2302054,2026,1,1,False,False,True,True,3.0,Luge
+2302065,2022,1,0,False,False,False,False,6.0,Snowboarding
+2302065,2026,1,0,False,False,False,False,11.0,Snowboarding
+2302066,2022,2,0,False,False,False,False,27.0,Speed Skating
