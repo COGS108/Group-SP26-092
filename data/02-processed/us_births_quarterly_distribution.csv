@@ -1,0 +1,5 @@
+birth_quarter,quarter_label,days_observed,births,percent_births,avg_daily_births
+1,Q1,993,10631251,24.07,10706.2
+2,Q2,1001,10934902,24.76,10924.0
+3,Q3,1012,11627208,26.32,11489.3
+4,Q4,1012,10974813,24.85,10844.7
