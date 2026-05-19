@@ -18,6 +18,8 @@ COLORS = {
     "athletes": "#2f6f73",
     "us": "#d88c46",
     "expected": "#8c6bb1",
+    "games_2022": "#4f7cac",
+    "games_2026": "#c44e52",
     "positive": "#2f6f73",
     "negative": "#c75d5d",
     "gray": "#687076",
@@ -29,6 +31,15 @@ def read_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     us_monthly = pd.read_csv(PROCESSED / "us_births_monthly_distribution.csv")
     us_quarterly = pd.read_csv(PROCESSED / "us_births_quarterly_distribution.csv")
 
+    athletes = add_athlete_display_columns(athletes)
+    us_monthly = add_us_monthly_display_columns(us_monthly)
+    us_quarterly = add_us_quarterly_display_columns(us_quarterly)
+
+    return athletes, us_monthly, us_quarterly
+
+
+def add_athlete_display_columns(athletes: pd.DataFrame) -> pd.DataFrame:
+    athletes = athletes.copy()
     athletes["month_label"] = pd.Categorical(
         athletes["birth_month"].map(lambda month: MONTH_LABELS[int(month) - 1]),
         categories=MONTH_LABELS,
@@ -40,14 +51,24 @@ def read_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
         ordered=True,
     )
     athletes["medal_status"] = athletes["any_medal"].map({True: "Won medal", False: "No medal"})
+    return athletes
 
+
+def add_us_monthly_display_columns(us_monthly: pd.DataFrame) -> pd.DataFrame:
+    us_monthly = us_monthly.copy()
     us_monthly["month_label"] = pd.Categorical(us_monthly["month_name"].str[:3], categories=MONTH_LABELS, ordered=True)
-    us_quarterly["quarter_label"] = pd.Categorical(us_quarterly["quarter_label"], categories=QUARTER_LABELS, ordered=True)
+    return us_monthly
 
-    return athletes, us_monthly, us_quarterly
+
+def add_us_quarterly_display_columns(us_quarterly: pd.DataFrame) -> pd.DataFrame:
+    us_quarterly = us_quarterly.copy()
+    us_quarterly["quarter_label"] = pd.Categorical(us_quarterly["quarter_label"], categories=QUARTER_LABELS, ordered=True)
+    return us_quarterly
 
 
 def athlete_month_distribution(athletes: pd.DataFrame, us_monthly: pd.DataFrame) -> pd.DataFrame:
+    if "month_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
     counts = (
         athletes.groupby(["birth_month", "month_label"], observed=True)
         .size()
@@ -65,6 +86,8 @@ def athlete_month_distribution(athletes: pd.DataFrame, us_monthly: pd.DataFrame)
 
 
 def athlete_quarter_distribution(athletes: pd.DataFrame, us_quarterly: pd.DataFrame) -> pd.DataFrame:
+    if "quarter_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
     counts = (
         athletes.groupby(["birth_quarter", "quarter_label"], observed=True)
         .size()
@@ -86,6 +109,8 @@ def athlete_quarter_distribution(athletes: pd.DataFrame, us_quarterly: pd.DataFr
 
 
 def by_games_quarter_distribution(athletes: pd.DataFrame) -> pd.DataFrame:
+    if "quarter_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
     out = (
         athletes.groupby(["games_year", "birth_quarter", "quarter_label"], observed=True)
         .size()
@@ -105,6 +130,8 @@ def sport_distribution(athletes: pd.DataFrame) -> pd.DataFrame:
 
 
 def medal_quarter_distribution(athletes: pd.DataFrame) -> pd.DataFrame:
+    if "quarter_label" not in athletes.columns or "medal_status" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
     out = (
         athletes.groupby(["quarter_label", "medal_status"], observed=True)
         .size()
@@ -256,7 +283,7 @@ def fig_age_distribution(athletes: pd.DataFrame) -> dict:
             "xaxis": {"title": "Age at Games"},
             "yaxis": {"title": "Athlete count"},
             "barmode": "overlay",
-            "colorway": [COLORS["athletes"], COLORS["us"]],
+            "colorway": [COLORS["games_2022"], COLORS["games_2026"]],
         },
     }
 
