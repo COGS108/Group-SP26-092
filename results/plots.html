@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>COGS 108 EDA Plots</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2628;
+      --muted: #5f686b;
+      --line: #d9dedb;
+      --paper: #fbfaf7;
+      --panel: #ffffff;
+      --accent: #2f6f73;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+    }
+    header {
+      padding: 36px max(24px, calc((100vw - 1120px) / 2)) 20px;
+      border-bottom: 1px solid var(--line);
+      background: #ffffff;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    p {
+      color: var(--muted);
+      line-height: 1.55;
+      margin: 0;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+    .metric {
+      border-left: 4px solid var(--accent);
+      background: #f4f8f7;
+      padding: 12px 14px;
+      min-height: 86px;
+    }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 6px;
+    }
+    .metric strong {
+      display: block;
+      font-size: 20px;
+      line-height: 1.2;
+    }
+    .plot-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px 18px 8px;
+      margin-bottom: 20px;
+    }
+    .plot-card p {
+      max-width: 850px;
+      margin-bottom: 8px;
+    }
+    .plot {
+      width: 100%;
+      min-height: 460px;
+    }
+    @media (max-width: 700px) {
+      header { padding: 28px 18px 18px; }
+      main { padding: 18px; }
+      .plot-card { padding: 14px 10px 4px; }
+      .plot { min-height: 420px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Birth Month EDA for Team USA Winter Olympians</h1>
+    <p>
+      Interactive plots for exploring whether the 2022 and 2026 U.S. Winter Olympic rosters have birth-month
+      patterns that differ from U.S. births from 1995-2005.
+    </p>
+    <div class="summary">
+      <div class="metric"><span>Athlete-Games Rows</span><strong>453</strong></div>
+      <div class="metric"><span>Games Years</span><strong>2022, 2026</strong></div>
+      <div class="metric"><span>Q1</span><strong>21.0% athletes vs 24.1% U.S. births</strong></div>
+      <div class="metric"><span>Q2</span><strong>29.6% athletes vs 24.8% U.S. births</strong></div>
+      <div class="metric"><span>Q3</span><strong>28.9% athletes vs 26.3% U.S. births</strong></div>
+      <div class="metric"><span>Q4</span><strong>20.5% athletes vs 24.9% U.S. births</strong></div>
+      <div class="metric"><span>Most Common Month</span><strong>Jun (50 athletes)</strong></div>
+      <div class="metric"><span>Least Common Month</span><strong>Jan (22 athletes)</strong></div>
+    </div>
+  </header>
+  <main>
+    
+            <section class="plot-card">
+              <p>Compares the athlete birth-month share with the baseline U.S. birth distribution from 1995-2005.</p>
+              <div id="plot-0" class="plot"></div>
+              <script>
+                Plotly.newPlot("plot-0", [{"type": "bar", "name": "Team USA athletes", "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "y": [4.86, 7.06, 9.05, 8.83, 9.71, 11.04, 10.15, 9.93, 8.83, 7.95, 5.96, 6.62], "marker": {"color": "#2f6f73"}, "hovertemplate": "%{x}<br>Athletes: %{y:.2f}%<extra></extra>"}, {"type": "scatter", "mode": "lines+markers", "name": "U.S. births baseline", "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "y": [8.12, 7.59, 8.35, 8.03, 8.41, 8.32, 8.79, 8.86, 8.68, 8.5, 8.01, 8.34], "line": {"color": "#d88c46", "width": 3}, "marker": {"size": 9}, "hovertemplate": "%{x}<br>U.S. births: %{y:.2f}%<extra></extra>"}], {"template": "plotly_white", "title": {"text": "Birth Month Distribution: Team USA Winter Olympians vs U.S. Births", "x": 0.02, "xanchor": "left"}, "font": {"family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"}, "margin": {"l": 72, "r": 32, "t": 82, "b": 62}, "legend": {"orientation": "h", "yanchor": "bottom", "y": 1.02, "xanchor": "right", "x": 1}, "yaxis": {"title": "Percent of group", "ticksuffix": "%"}, "xaxis": {"title": "Birth month"}, "barmode": "group"}, {"responsive": true, "displaylogo": false});
+              </script>
+            </section>
+            
+            <section class="plot-card">
+              <p>Quarter-level view of the relative age effect question. The original hypothesis expects Q1 to be overrepresented.</p>
+              <div id="plot-1" class="plot"></div>
+              <script>
+                Plotly.newPlot("plot-1", [{"type": "bar", "name": "Team USA athletes", "x": ["Q1", "Q2", "Q3", "Q4"], "y": [20.97, 29.58, 28.92, 20.53], "marker": {"color": "#2f6f73"}, "hovertemplate": "%{x}<br>Athletes: %{y:.2f}%<extra></extra>"}, {"type": "bar", "name": "U.S. births baseline", "x": ["Q1", "Q2", "Q3", "Q4"], "y": [24.07, 24.76, 26.32, 24.85], "marker": {"color": "#d88c46"}, "hovertemplate": "%{x}<br>U.S. births: %{y:.2f}%<extra></extra>"}], {"template": "plotly_white", "title": {"text": "Birth Quarter Distribution", "x": 0.02, "xanchor": "left"}, "font": {"family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"}, "margin": {"l": 72, "r": 32, "t": 82, "b": 62}, "legend": {"orientation": "h", "yanchor": "bottom", "y": 1.02, "xanchor": "right", "x": 1}, "yaxis": {"title": "Percent of group", "ticksuffix": "%"}, "xaxis": {"title": "Birth quarter"}, "barmode": "group"}, {"responsive": true, "displaylogo": false});
+              </script>
+            </section>
+            
+            <section class="plot-card">
+              <p>Expected counts are based on the U.S. monthly birth distribution. Positive bars mean more athletes than expected for that month.</p>
+              <div id="plot-2" class="plot"></div>
+              <script>
+                Plotly.newPlot("plot-2", [{"type": "bar", "name": "Observed - expected", "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "y": [-14.8, -2.4, 3.2, 3.6, 5.9, 12.3, 6.2, 4.9, 0.7, -2.5, -9.3, -7.8], "marker": {"color": ["#c75d5d", "#c75d5d", "#2f6f73", "#2f6f73", "#2f6f73", "#2f6f73", "#2f6f73", "#2f6f73", "#2f6f73", "#c75d5d", "#c75d5d", "#c75d5d"]}, "customdata": [[22.0, 36.78, 0.6], [32.0, 34.38, 0.93], [41.0, 37.83, 1.08], [40.0, 36.38, 1.1], [44.0, 38.1, 1.15], [50.0, 37.69, 1.33], [46.0, 39.82, 1.16], [45.0, 40.14, 1.12], [40.0, 39.32, 1.02], [36.0, 38.51, 0.93], [27.0, 36.29, 0.74], [30.0, 37.78, 0.79]], "hovertemplate": "%{x}<br>Observed: %{customdata[0]:.0f}<br>Expected: %{customdata[1]:.1f}<br>Observed / expected: %{customdata[2]:.2f}<br>Difference: %{y:.1f}<extra></extra>"}], {"template": "plotly_white", "title": {"text": "Observed Athlete Counts Minus Expected Counts by Month", "x": 0.02, "xanchor": "left"}, "font": {"family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"}, "margin": {"l": 72, "r": 32, "t": 82, "b": 62}, "legend": {"orientation": "h", "yanchor": "bottom", "y": 1.02, "xanchor": "right", "x": 1}, "yaxis": {"title": "Athlete count difference"}, "xaxis": {"title": "Birth month"}, "shapes": [{"type": "line", "x0": -0.5, "x1": 11.5, "y0": 0, "y1": 0, "line": {"color": "#333", "width": 1}}]}, {"responsive": true, "displaylogo": false});
+              </script>
+            </section>
+            
+            <section class="plot-card">
+              <p>Checks whether the same birth-quarter pattern appears in both Olympic rosters or is driven by one year.</p>
+              <div id="plot-3" class="plot"></div>
+              <script>
+                Plotly.newPlot("plot-3", [{"type": "bar", "name": "2022", "x": ["Q1", "Q2", "Q3", "Q4"], "y": [21.52, 30.04, 28.25, 20.18], "customdata": [48, 67, 63, 45], "hovertemplate": "%{x}<br>%{fullData.name}: %{y:.2f}%<br>Count: %{customdata}<extra></extra>"}, {"type": "bar", "name": "2026", "x": ["Q1", "Q2", "Q3", "Q4"], "y": [20.43, 29.13, 29.57, 20.87], "customdata": [47, 67, 68, 48], "hovertemplate": "%{x}<br>%{fullData.name}: %{y:.2f}%<br>Count: %{customdata}<extra></extra>"}], {"template": "plotly_white", "title": {"text": "Birth Quarter Distribution by Games Year", "x": 0.02, "xanchor": "left"}, "font": {"family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"}, "margin": {"l": 72, "r": 32, "t": 82, "b": 62}, "legend": {"orientation": "h", "yanchor": "bottom", "y": 1.02, "xanchor": "right", "x": 1}, "yaxis": {"title": "Percent within Games year", "ticksuffix": "%"}, "xaxis": {"title": "Birth quarter"}, "barmode": "group", "colorway": ["#2f6f73", "#d88c46"]}, {"responsive": true, "displaylogo": false});
+              </script>
+            </section>
+            
+            <section class="plot-card">
+              <p>Describes roster age composition. This helps flag whether one Games year has a very different athlete mix.</p>
+              <div id="plot-4" class="plot"></div>
+              <script>
+                Plotly.newPlot("plot-4", [{"type": "histogram", "name": "2022", "x": [21.17, 25.82, 31.72, 19.81, 24.36, 34.98, 27.81, 30.09, 27.48, 23.37, 30.66, 21.51, 16.49, 30.44, 32.74, 20.91, 33.81, 21.86, 26.54, 28.39, 22.89, 22.53, 31.57, 23.66, 23.22, 21.98, 22.53, 29.67, 29.21, 20.29, 28.26, 33.68, 30.73, 32.05, 33.95, 19.46, 29.56, 31.98, 24.11, 22.01, 19.31, 21.51, 23.14, 23.08, 24.7, 26.85, 21.79, 22.41, 23.34, 33.61, 34.48, 34.21, 21.79, 24.34, 18.92, 37.72, 20.47, 18.23, 26.6, 25.27, 31.69, 31.6, 21.49, 29.69, 28.96, 19.55, 20.86, 19.01, 28.61, 37.32, 25.65, 28.89, 26.82, 29.38, 21.73, 17.23, 32.95, 29.87, 30.58, 19.64, 22.79, 21.53, 30.25, 21.51, 23.57, 34.25, 17.42, 28.19, 23.96, 22.67, 27.14, 32.57, 25.26, 28.54, 24.98, 21.48, 29.56, 25.36, 29.86, 19.58, 23.81, 30.7, 31.39, 22.92, 27.14, 25.74, 28.33, 22.6, 30.44, 24.73, 29.6, 35.99, 31.72, 39.26, 24.92, 17.71, 25.43, 24.4, 24.4, 21.62, 34.94, 23.48, 17.47, 18.83, 36.42, 25.25, 22.47, 22.18, 37.55, 24.36, 22.84, 33.03, 26.1, 29.7, 29.77, 25.37, 28.82, 27.48, 27.78, 27.26, 27.79, 32.72, 36.46, 22.38, 22.05, 24.84, 22.02, 20.5, 21.95, 24.58, 29.59, 30.95, 23.14, 22.53, 25.8, 20.84, 32.96, 19.3, 19.25, 30.86, 25.76, 25.57, 25.05, 32.27, 30.77, 26.9, 22.75, 23.3, 22.67, 40.13, 27.9, 19.51, 23.64, 29.36, 27.62, 24.18, 33.54, 23.0, 20.14, 21.47, 34.37, 23.19, 29.66, 27.83, 21.6, 23.98, 31.23, 33.17, 29.86, 26.73, 22.53, 26.28, 30.02, 26.66, 20.26, 21.37, 21.98, 35.42, 21.66, 21.71, 21.89, 33.36, 23.47, 27.88, 35.98, 32.6, 32.92, 30.69, 31.74, 18.32, 31.76, 32.88, 33.56, 24.91, 26.64, 28.22, 27.66, 29.68, 21.28, 23.13, 31.07, 20.22, 24.8], "opacity": 0.72, "xbins": {"start": 14, "end": 56, "size": 2}, "hovertemplate": "Age: %{x}<br>Count: %{y}<extra></extra>"}, {"type": "histogram", "name": "2026", "x": [25.17, 23.82, 15.77, 26.71, 24.63, 38.98, 17.34, 31.82, 31.48, 27.38, 20.5, 26.28, 24.92, 24.69, 26.75, 23.65, 21.37, 25.09, 26.9, 31.4, 28.39, 21.28, 17.46, 27.65, 19.03, 27.66, 25.98, 27.33, 26.54, 32.37, 26.39, 24.44, 30.05, 20.02, 25.88, 37.95, 23.46, 34.31, 29.18, 33.57, 24.8, 30.39, 23.7, 23.32, 28.74, 25.51, 27.08, 28.13, 21.59, 26.94, 30.86, 25.6, 25.79, 27.34, 25.85, 26.39, 27.53, 25.8, 21.37, 32.72, 27.07, 24.25, 24.48, 31.18, 35.68, 24.64, 34.98, 33.7, 22.68, 29.52, 32.62, 41.33, 21.13, 29.65, 23.79, 28.49, 32.9, 33.38, 25.74, 21.24, 36.95, 33.87, 34.59, 23.65, 24.78, 26.79, 21.71, 25.54, 25.39, 21.28, 27.58, 22.57, 18.56, 24.87, 31.15, 36.57, 27.35, 29.9, 27.5, 21.18, 22.57, 18.93, 28.99, 25.49, 32.9, 31.77, 29.28, 24.73, 33.57, 25.08, 23.75, 29.36, 22.55, 31.34, 27.14, 27.52, 23.58, 27.81, 29.58, 19.86, 27.2, 16.18, 34.45, 33.61, 24.35, 28.93, 21.71, 29.44, 19.35, 20.65, 28.4, 25.62, 22.83, 40.42, 21.44, 19.61, 28.37, 26.84, 37.03, 30.11, 33.7, 23.62, 29.37, 21.43, 23.03, 30.66, 31.79, 31.26, 29.16, 27.35, 22.04, 22.03, 25.32, 28.36, 31.79, 16.48, 41.3, 20.04, 26.92, 25.18, 24.51, 25.96, 31.78, 33.6, 20.54, 28.24, 24.84, 22.34, 24.84, 22.26, 28.16, 24.52, 24.46, 29.77, 36.28, 30.9, 31.56, 21.01, 44.14, 31.9, 23.52, 22.17, 28.19, 29.03, 24.15, 17.65, 25.48, 23.44, 33.67, 31.84, 23.67, 26.32, 25.61, 24.68, 54.86, 22.48, 27.98, 23.42, 37.18, 33.86, 22.53, 29.7, 20.38, 29.63, 30.67, 25.37, 25.99, 24.65, 29.4, 25.71, 31.88, 23.94, 36.92, 28.27, 34.7, 23.53, 20.86, 30.95, 25.89, 25.63, 21.74, 21.46, 24.28, 32.57, 27.14, 26.74, 28.55, 24.23, 28.85, 24.69], "opacity": 0.72, "xbins": {"start": 14, "end": 56, "size": 2}, "hovertemplate": "Age: %{x}<br>Count: %{y}<extra></extra>"}], {"template": "plotly_white", "title": {"text": "Athlete Age at Opening Ceremony", "x": 0.02, "xanchor": "left"}, "font": {"family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"}, "margin": {"l": 72, "r": 32, "t": 82, "b": 62}, "legend": {"orientation": "h", "yanchor": "bottom", "y": 1.02, "xanchor": "right", "x": 1}, "xaxis": {"title": "Age at Games"}, "yaxis": {"title": "Athlete count"}, "barmode": "overlay", "colorway": ["#2f6f73", "#d88c46"]}, {"responsive": true, "displaylogo": false});
+              </script>
+            </section>
+            
+            <section class="plot-card">
+              <p>Shows the composition of the athlete data. A large sport can heavily influence the overall birth-month pattern.</p>
+              <div id="plot-5" class="plot"></div>
+              <script>
+                Plotly.newPlot("plot-5", [{"type": "bar", "orientation": "h", "name": "Athletes", "x": [2, 5, 7, 7, 11, 11, 12, 13, 16, 24, 28, 32, 50, 64, 171], "y": ["Ski Mountaineering", "Bobsleigh", "Skeleton", "Nordic Combined", "Ski Jumping", "Luge", "Figure Skating", "Short Track Speed Skating", "Biathlon", "Speed Skating", "Cross Country Skiing", "Alpine Skiing", "Snowboarding", "Freestyle Skiing", "Team sport/no individual result"], "marker": {"color": "#2f6f73"}, "hovertemplate": "%{y}<br>Athletes: %{x}<extra></extra>"}], {"template": "plotly_white", "title": {"text": "Athlete Count by Sport / Result Category", "x": 0.02, "xanchor": "left"}, "font": {"family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"}, "margin": {"l": 72, "r": 32, "t": 82, "b": 62}, "legend": {"orientation": "h", "yanchor": "bottom", "y": 1.02, "xanchor": "right", "x": 1}, "xaxis": {"title": "Athlete count"}, "yaxis": {"title": ""}, "height": 620}, {"responsive": true, "displaylogo": false});
+              </script>
+            </section>
+            
+            <section class="plot-card">
+              <p>Explores whether medal-winning athlete appearances cluster by birth quarter. This is descriptive only because medal outcomes are sparse.</p>
+              <div id="plot-6" class="plot"></div>
+              <script>
+                Plotly.newPlot("plot-6", [{"type": "bar", "name": "Won medal", "x": ["Q1", "Q2", "Q3", "Q4"], "y": [9, 5, 18, 4], "customdata": [9.5, 3.7, 13.7, 4.3], "hovertemplate": "%{x}<br>%{fullData.name}<br>Count: %{y}<br>Within-quarter share: %{customdata:.1f}%<extra></extra>"}, {"type": "bar", "name": "No medal", "x": ["Q1", "Q2", "Q3", "Q4"], "y": [86, 129, 113, 89], "customdata": [90.5, 96.3, 86.3, 95.7], "hovertemplate": "%{x}<br>%{fullData.name}<br>Count: %{y}<br>Within-quarter share: %{customdata:.1f}%<extra></extra>"}], {"template": "plotly_white", "title": {"text": "Medal Outcomes by Birth Quarter", "x": 0.02, "xanchor": "left"}, "font": {"family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"}, "margin": {"l": 72, "r": 32, "t": 82, "b": 62}, "legend": {"orientation": "h", "yanchor": "bottom", "y": 1.02, "xanchor": "right", "x": 1}, "xaxis": {"title": "Birth quarter"}, "yaxis": {"title": "Athlete count"}, "barmode": "stack", "colorway": ["#8c6bb1", "#d8d2c4"]}, {"responsive": true, "displaylogo": false});
+              </script>
+            </section>
+            
+  </main>
+</body>
+</html>
