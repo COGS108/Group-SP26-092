@@ -1,71 +1,71 @@
 id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,birthplace,sports,events_entered,medal_count,any_medal,any_gold,any_silver,any_bronze,best_position,has_individual_results
 149062,A. J. Hurt,2022,2000-12-05,2000,12,4,21.17,"Truckee, California (USA)",Alpine Skiing,2,0,False,False,False,False,34.0,True
 128706,Aaron Blunck,2022,1996-04-12,1996,4,2,25.82,"Denver, Colorado (USA)",Freestyle Skiing,1,0,False,False,False,False,7.0,True
-149140,Aaron Ness,2022,1990-05-18,1990,5,2,31.72,"Bemidji, Minnesota (USA)",,0,0,False,False,False,False,,False
-149118,Abbey Murphy,2022,2002-04-14,2002,4,2,19.81,"Evergreen Park, Illinois (USA)",,0,0,False,False,False,False,,False
-149119,Abby Roque,2022,1997-09-25,1997,9,3,24.36,"Sault Sainte Marie, Michigan (USA)",,0,0,False,False,False,False,,False
-138278,Aileen Geving,2022,1987-02-13,1987,2,1,34.98,"Duluth, Minnesota (USA)",,0,0,False,False,False,False,,False
-128729,Alex Carpenter,2022,1994-04-13,1994,4,2,27.81,"Cambridge, Massachusetts (USA)",,0,0,False,False,False,False,,False
-1800063,Alex Cavallini,2022,1992-01-03,1992,1,1,30.09,"Downers Grove, Illinois (USA)",,0,0,False,False,False,False,,False
+149140,Aaron Ness,2022,1990-05-18,1990,5,2,31.72,"Bemidji, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149118,Abbey Murphy,2022,2002-04-14,2002,4,2,19.81,"Evergreen Park, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149119,Abby Roque,2022,1997-09-25,1997,9,3,24.36,"Sault Sainte Marie, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
+138278,Aileen Geving,2022,1987-02-13,1987,2,1,34.98,"Duluth, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
+128729,Alex Carpenter,2022,1994-04-13,1994,4,2,27.81,"Cambridge, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
+1800063,Alex Cavallini,2022,1992-01-03,1992,1,1,30.09,"Downers Grove, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138294,Alex Ferreira,2022,1994-08-14,1994,8,3,27.48,"Aspen, Colorado (USA)",Freestyle Skiing,1,1,True,False,False,True,3.0,True
 138295,Alex Hall,2022,1998-09-21,1998,9,3,23.37,"Fairbanks, Alaska (USA)",Freestyle Skiing,2,1,True,True,False,False,1.0,True
-138303,Alexa Scimeca Knierim,2022,1991-06-10,1991,6,2,30.66,"Addison, Illinois (USA)",,0,0,False,False,False,False,,False
+138303,Alexa Scimeca Knierim,2022,1991-06-10,1991,6,2,30.66,"Addison, Illinois (USA)",Figure Skating,0,0,False,False,False,False,,False
 149183,Alix Wilkinson,2022,2000-08-02,2000,8,3,21.51,"Mammoth Lakes, California (USA)",Alpine Skiing,2,0,False,False,False,False,,True
 149110,Alysa Liu,2022,2005-08-08,2005,8,3,16.49,"Clovis, California (USA)",Figure Skating,1,0,False,False,False,False,6.0,True
-128733,Amanda Kessel,2022,1991-08-28,1991,8,3,30.44,"Madison, Wisconsin (USA)",,0,0,False,False,False,False,,False
+128733,Amanda Kessel,2022,1991-08-28,1991,8,3,30.44,"Madison, Wisconsin (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149160,Andrew Blaser,2022,1989-05-08,1989,5,2,32.74,"Meridian, Idaho (USA)",Skeleton,1,0,False,False,False,False,21.0,True
 149170,Andrew Heo,2022,2001-03-07,2001,3,1,20.91,"Warrington, Bucks County, Pennsylvania (USA)",Short Track Speed Skating,2,0,False,False,False,False,7.0,True
-149138,Andy Miele,2022,1988-04-15,1988,4,2,33.81,"Grosse Pointe Woods, Michigan (USA)",,0,0,False,False,False,False,,False
+149138,Andy Miele,2022,1988-04-15,1988,4,2,33.81,"Grosse Pointe Woods, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149180,Anna Hoffmann,2022,2000-03-28,2000,3,1,21.86,"Madison, Wisconsin (USA)",Ski Jumping,1,0,False,False,False,False,37.0,True
-149108,Ashley Cain-Gribble,2022,1995-07-22,1995,7,3,26.54,"Dallas, Texas (USA)",,0,0,False,False,False,False,,False
+149108,Ashley Cain-Gribble,2022,1995-07-22,1995,7,3,26.54,"Dallas, Texas (USA)",Figure Skating,0,0,False,False,False,False,,False
 118948,Ashley Caldwell,2022,1993-09-14,1993,9,3,28.39,"Ashburn, Virginia (USA)",Freestyle Skiing,1,0,False,False,False,False,4.0,True
 2302054,Ashley Farquharson,2022,1999-03-16,1999,3,1,22.89,"Sacramento, California (USA)",Luge,1,0,False,False,False,False,12.0,True
 2302066,Austin Kleba,2022,1999-07-27,1999,7,3,22.53,"Campton Hills, Illinois (USA)",Speed Skating,2,0,False,False,False,False,27.0,True
-138279,Becca Hamilton,2022,1990-07-12,1990,7,3,31.57,"Madison, Wisconsin (USA)",,0,0,False,False,False,False,,False
+138279,Becca Hamilton,2022,1990-07-12,1990,7,3,31.57,"Madison, Wisconsin (USA)",Curling,0,0,False,False,False,False,,False
 138353,Ben Loomis,2022,1998-06-09,1998,6,2,23.66,"Eau Claire, Wisconsin (USA)",Nordic Combined,2,0,False,False,False,False,15.0,True
-149137,Ben Meyers,2022,1998-11-15,1998,11,4,23.22,"Delano, Minnesota (USA)",,0,0,False,False,False,False,,False
+149137,Ben Meyers,2022,1998-11-15,1998,11,4,23.22,"Delano, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149085,Ben Ogden,2022,2000-02-13,2000,2,1,21.98,"Landgrove, Vermont (USA)",Cross Country Skiing,2,0,False,False,False,False,12.0,True
 2302026,Birk Irving,2022,1999-07-26,1999,7,3,22.53,"Englewood, New Jersey (USA)",Freestyle Skiing,1,0,False,False,False,False,5.0,True
 128714,Brad Wilson,2022,1992-06-05,1992,6,2,29.67,"Butte, Montana (USA)",Freestyle Skiing,1,0,False,False,False,False,25.0,True
-149112,Brandon Frazier,2022,1992-11-19,1992,11,4,29.21,"Phoenix, Arizona (USA)",,0,0,False,False,False,False,,False
-149125,Brendan Brisson,2022,2001-10-22,2001,10,4,20.29,"Manhattan Beach, California (USA)",,0,0,False,False,False,False,,False
-149128,Brian Cooper,2022,1993-11-01,1993,11,4,28.26,"Anchorage, Alaska (USA)",,0,0,False,False,False,False,,False
-138338,Brian O'Neill,2022,1988-06-01,1988,6,2,33.68,"Philadelphia, Pennsylvania (USA)",,0,0,False,False,False,False,,False
-128731,Brianna Decker,2022,1991-05-13,1991,5,2,30.73,"Dousman, Wisconsin (USA)",,0,0,False,False,False,False,,False
+149112,Brandon Frazier,2022,1992-11-19,1992,11,4,29.21,"Phoenix, Arizona (USA)",Figure Skating,0,0,False,False,False,False,,False
+149125,Brendan Brisson,2022,2001-10-22,2001,10,4,20.29,"Manhattan Beach, California (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149128,Brian Cooper,2022,1993-11-01,1993,11,4,28.26,"Anchorage, Alaska (USA)",Ice Hockey,0,0,False,False,False,False,,False
+138338,Brian O'Neill,2022,1988-06-01,1988,6,2,33.68,"Philadelphia, Pennsylvania (USA)",Ice Hockey,0,0,False,False,False,False,,False
+128731,Brianna Decker,2022,1991-05-13,1991,5,2,30.73,"Dousman, Wisconsin (USA)",Ice Hockey,0,0,False,False,False,False,,False
 128704,Brita Sigourney,2022,1990-01-17,1990,1,1,32.05,"Monterey, California (USA)",Freestyle Skiing,1,0,False,False,False,False,10.0,True
 128778,Brittany Bowe,2022,1988-02-24,1988,2,1,33.95,"Ocala, Florida (USA)",Speed Skating,3,1,True,False,False,True,3.0,True
-149129,Brock Faber,2022,2002-08-22,2002,8,3,19.46,"Maple Grove, Minnesota (USA)",,0,0,False,False,False,False,,False
+149129,Brock Faber,2022,2002-08-22,2002,8,3,19.46,"Maple Grove, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138248,Bryce Bennett,2022,1992-07-14,1992,7,3,29.56,"Truckee, California (USA)",Alpine Skiing,2,0,False,False,False,False,17.0,True
-138264,Carlo Valdes,2022,1990-02-11,1990,2,1,31.98,"Newport Beach, California (USA)",,0,0,False,False,False,False,,False
+138264,Carlo Valdes,2022,1990-02-11,1990,2,1,31.98,"Newport Beach, California (USA)",Bobsleigh,0,0,False,False,False,False,,False
 149094,Carly Margulies,2022,1997-12-24,1997,12,4,24.11,"Salt Lake City, Utah (USA)",Freestyle Skiing,1,0,False,False,False,False,11.0,True
 138284,Caroline Claire,2022,2000-02-02,2000,2,1,22.01,"Edina, Minnesota (USA)",Freestyle Skiing,2,0,False,False,False,False,24.0,True
-149117,Caroline Harvey,2022,2002-10-14,2002,10,4,19.31,"Pelham, New Hampshire (USA)",,0,0,False,False,False,False,,False
+149117,Caroline Harvey,2022,2002-10-14,2002,10,4,19.31,"Pelham, New Hampshire (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149164,Casey Dawson,2022,2000-08-02,2000,8,3,21.51,"Park City, Utah (USA)",Speed Skating,1,0,False,False,False,False,28.0,True
 138359,Casey Larson,2022,1998-12-16,1998,12,4,23.14,"Barrington, Illinois (USA)",Ski Jumping,2,0,False,False,False,False,39.0,True
-138310,Cayla Barnes,2022,1999-01-07,1999,1,1,23.08,"Eastvale, California (USA)",,0,0,False,False,False,False,,False
-149074,Charlie Volker,2022,1997-05-23,1997,5,2,24.7,"Fair Haven, New Jersey (USA)",,0,0,False,False,False,False,,False
+138310,Cayla Barnes,2022,1999-01-07,1999,1,1,23.08,"Eastvale, California (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149074,Charlie Volker,2022,1997-05-23,1997,5,2,24.7,"Fair Haven, New Jersey (USA)",Bobsleigh,0,0,False,False,False,False,,False
 138372,Chase Josey,2022,1995-03-31,1995,3,1,26.85,"Hailey, Idaho (USA)",Snowboarding,1,0,False,False,False,False,7.0,True
 138361,Chloe Kim,2022,2000-04-23,2000,4,2,21.79,"Long Beach, California (USA)",Snowboarding,1,1,True,True,False,False,1.0,True
 138368,Chris Corning,2022,1999-09-07,1999,9,3,22.41,"Silverthorne, Colorado (USA)",Snowboarding,2,0,False,False,False,False,6.0,True
 149100,Chris Lillis,2022,1998-10-04,1998,10,4,23.34,"Rochester, New York (USA)",Freestyle Skiing,1,0,False,False,False,False,6.0,True
 119429,Chris Mazdzer,2022,1988-06-26,1988,6,2,33.61,"Pittsfield, Massachusetts (USA)",Luge,1,0,False,False,False,False,8.0,True
-118883,Chris Plys,2022,1987-08-13,1987,8,3,34.48,"Duluth, Minnesota (USA)",,0,0,False,False,False,False,,False
+118883,Chris Plys,2022,1987-08-13,1987,8,3,34.48,"Duluth, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
 138255,Clare Egan,2022,1987-11-19,1987,11,4,34.21,"Portland, Maine (USA)",Biathlon,3,0,False,False,False,False,38.0,True
 149156,Cody Winters,2022,2000-04-20,2000,4,2,21.79,"Steamboat Springs, Colorado (USA)",Snowboarding,1,0,False,False,False,False,29.0,True
 149104,Colby Stevenson,2022,1997-10-03,1997,10,4,24.34,"Portsmouth, New Hampshire (USA)",Freestyle Skiing,2,1,True,False,True,False,2.0,True
 149101,Cole McDonald,2022,2003-03-06,2003,3,1,18.92,"Park City, Utah (USA)",Freestyle Skiing,1,0,False,False,False,False,14.0,True
-149090,Colin Hufman,2022,1984-05-15,1984,5,2,37.72,"Fairbanks, Alaska (USA)",,0,0,False,False,False,False,,False
+149090,Colin Hufman,2022,1984-05-15,1984,5,2,37.72,"Fairbanks, Alaska (USA)",Curling,0,0,False,False,False,False,,False
 149169,Corie Stoddard,2022,2001-08-15,2001,8,3,20.47,"Seattle, Washington (USA)",Short Track Speed Skating,3,0,False,False,False,False,7.0,True
 139945,Courtney Rummel,2022,2003-11-12,2003,11,4,18.23,"Mequon, Wisconsin (USA)",Snowboarding,2,0,False,False,False,False,17.0,True
-138312,Dani Cameranesi,2022,1995-06-30,1995,6,2,26.6,"Minneapolis, Minnesota (USA)",,0,0,False,False,False,False,,False
+138312,Dani Cameranesi,2022,1995-06-30,1995,6,2,26.6,"Minneapolis, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138291,Darian Stevens,2022,1996-10-29,1996,10,4,25.27,"Missoula, Montana (USA)",Freestyle Skiing,2,0,False,False,False,False,11.0,True
-149145,David Warsofsky,2022,1990-05-30,1990,5,2,31.69,"Marshfield, Massachusetts (USA)",,0,0,False,False,False,False,,False
+149145,David Warsofsky,2022,1990-05-30,1990,5,2,31.69,"Marshfield, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
 128715,David Wise,2022,1990-06-30,1990,6,2,31.6,"Reno, Nevada (USA)",Freestyle Skiing,1,1,True,False,True,False,2.0,True
 149157,Decker Dean,2022,2000-08-08,2000,8,3,21.49,"Steamboat Springs, Colorado (USA)",Ski Jumping,2,0,False,False,False,False,44.0,True
 149076,Deedra Irwin,2022,1992-05-27,1992,5,2,29.69,"Pulaski, Wisconsin (USA)",Biathlon,4,0,False,False,False,False,7.0,True
 128702,Devin Logan,2022,1993-02-17,1993,2,1,28.96,"Oceanside, New York (USA)",Freestyle Skiing,1,0,False,False,False,False,13.0,True
-149127,Drew Commesso,2022,2002-07-19,2002,7,3,19.55,"Norwell, Massachusetts (USA)",,0,0,False,False,False,False,,False
-149131,Drew Helleson,2022,2001-03-26,2001,3,1,20.86,"Farmington, Minnesota (USA)",,0,0,False,False,False,False,,False
+149127,Drew Commesso,2022,2002-07-19,2002,7,3,19.55,"Norwell, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149131,Drew Helleson,2022,2001-03-26,2001,3,1,20.86,"Farmington, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 139946,Dusty Henricksen,2022,2003-02-02,2003,2,1,19.01,"Redlands, California (USA)",Snowboarding,2,0,False,False,False,False,17.0,True
 149105,Dylan Walczyk,2022,1993-06-25,1993,6,2,28.61,"Rochester, New York (USA)",Freestyle Skiing,1,0,False,False,False,False,16.0,True
 118644,Elana Meyers Taylor,2022,1984-10-10,1984,10,4,37.32,"Oceanside, California (USA)",Bobsleigh,1,1,True,False,True,False,2.0,True
@@ -74,72 +74,72 @@ id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,
 138297,Eric Loughran,2022,1995-04-12,1995,4,2,26.82,"Lowell, Massachusetts (USA)",Freestyle Skiing,1,0,False,False,False,False,12.0,True
 138378,Erin Jackson,2022,1992-09-19,1992,9,3,29.38,"Ocala, Florida (USA)",Speed Skating,1,1,True,True,False,False,1.0,True
 149163,Ethan Cepuran,2022,2000-05-13,2000,5,2,21.73,"Glen Ellyn, Illinois (USA)",Speed Skating,1,0,False,False,False,False,17.0,True
-149166,Eunice Lee,2022,2004-11-11,2004,11,4,17.23,"San Diego, California (USA)",,0,0,False,False,False,False,,False
-119076,Evan Bates,2022,1989-02-23,1989,2,1,32.95,"Ann Arbor, Michigan (USA)",,0,0,False,False,False,False,,False
+149166,Eunice Lee,2022,2004-11-11,2004,11,4,17.23,"San Diego, California (USA)",Short Track Speed Skating,0,0,False,False,False,False,,False
+119076,Evan Bates,2022,1989-02-23,1989,2,1,32.95,"Ann Arbor, Michigan (USA)",Figure Skating,0,0,False,False,False,False,,False
 119570,Faye Gulini,2022,1992-03-24,1992,3,1,29.87,"Salt Lake City, Utah (USA)",Snowboarding,1,0,False,False,False,False,,True
-149071,Frankie Del Duca,2022,1991-07-07,1991,7,3,30.58,"Fort Lauderdale, Florida (USA)",,0,0,False,False,False,False,,False
+149071,Frankie Del Duca,2022,1991-07-07,1991,7,3,30.58,"Fort Lauderdale, Florida (USA)",Bobsleigh,0,0,False,False,False,False,,False
 149161,Giorgia Birkeland,2022,2002-06-14,2002,6,2,19.64,"Scandiano, Reggio Emilia (ITA)",Speed Skating,1,0,False,False,False,False,12.0,True
-149121,Grace Zumwinkle,2022,1999-04-23,1999,4,2,22.79,"Minneapolis, Minnesota (USA)",,0,0,False,False,False,False,,False
+149121,Grace Zumwinkle,2022,1999-04-23,1999,4,2,22.79,"Minneapolis, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149087,Gus Schumacher,2022,2000-07-25,2000,7,3,21.53,"Madison, Wisconsin (USA)",Cross Country Skiing,2,0,False,False,False,False,39.0,True
 138373,Hagen Kearney,2022,1991-11-06,1991,11,4,30.25,"Buffalo, New York (USA)",Snowboarding,1,0,False,False,False,False,,True
 138362,Hailey Langland,2022,2000-08-02,2000,8,3,21.51,"Irving, California (USA)",Snowboarding,2,0,False,False,False,False,11.0,True
 149082,Hailey Swirbul,2022,1998-07-10,1998,7,3,23.57,"El Jebel, Colorado (USA)",Cross Country Skiing,2,0,False,False,False,False,32.0,True
-138259,Hakeem Abdul-Saboor,2022,1987-11-07,1987,11,4,34.25,"Hoboken, New Jersey (USA)",,0,0,False,False,False,False,,False
+138259,Hakeem Abdul-Saboor,2022,1987-11-07,1987,11,4,34.25,"Hoboken, New Jersey (USA)",Bobsleigh,0,0,False,False,False,False,,False
 139199,Hanna Faulhaber,2022,2004-09-04,2004,9,3,17.42,"Aspen, Colorado (USA)",Freestyle Skiing,1,0,False,False,False,False,6.0,True
-138311,Hannah Brandt,2022,1993-11-27,1993,11,4,28.19,"Maplewood, Minnesota (USA)",,0,0,False,False,False,False,,False
+138311,Hannah Brandt,2022,1993-11-27,1993,11,4,28.19,"Maplewood, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 2302019,Hannah Halvorsen,2022,1998-02-19,1998,2,1,23.96,"Pazardzhik, Pazardzhik (BUL)",Cross Country Skiing,1,0,False,False,False,False,43.0,True
 149097,Hannah Soar,2022,1999-06-04,1999,6,2,22.67,"Somers, Connecticut (USA)",Freestyle Skiing,1,0,False,False,False,False,7.0,True
-149120,Hayley Scamurra,2022,1994-12-14,1994,12,4,27.14,"Williamsville, New York (USA)",,0,0,False,False,False,False,,False
-119215,Hilary Knight,2022,1989-07-12,1989,7,3,32.57,"Palo Alto, California (USA)",,0,0,False,False,False,False,,False
-149070,Hunter Church,2022,1996-10-30,1996,10,4,25.26,"Cadyville, New York (USA)",,0,0,False,False,False,False,,False
+149120,Hayley Scamurra,2022,1994-12-14,1994,12,4,27.14,"Williamsville, New York (USA)",Ice Hockey,0,0,False,False,False,False,,False
+119215,Hilary Knight,2022,1989-07-12,1989,7,3,32.57,"Palo Alto, California (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149070,Hunter Church,2022,1996-10-30,1996,10,4,25.26,"Cadyville, New York (USA)",Bobsleigh,0,0,False,False,False,False,,False
 149165,Ian Quinn,2022,1993-07-21,1993,7,3,28.54,"St. Louis, Missouri (USA)",Speed Skating,1,0,False,False,False,False,26.0,True
 149066,Isabella Wright,2022,1997-02-10,1997,2,1,24.98,"American Fork, Utah (USA)",Alpine Skiing,2,0,False,False,False,False,21.0,True
 149086,J. C. Schoonmaker,2022,2000-08-12,2000,8,3,21.48,"Truckee, California (USA)",Cross Country Skiing,2,0,False,False,False,False,15.0,True
 128670,Jackie Wiles,2022,1992-07-13,1992,7,3,29.56,"Portland, Oregon (USA)",Alpine Skiing,1,0,False,False,False,False,21.0,True
 138286,Jaelin Kauf,2022,1996-09-26,1996,9,3,25.36,"Vail, Colorado (USA)",Freestyle Skiing,1,1,True,False,True,False,2.0,True
 149077,Jake Brown,2022,1992-03-28,1992,3,1,29.86,"Edina, Minnesota (USA)",Biathlon,3,0,False,False,False,False,28.0,True
-149142,Jake Sanderson,2022,2002-07-08,2002,7,3,19.58,"Whitefish, Montana (USA)",,0,0,False,False,False,False,,False
+149142,Jake Sanderson,2022,2002-07-08,2002,7,3,19.58,"Whitefish, Montana (USA)",Ice Hockey,0,0,False,False,False,False,,False
 2302065,Jake Vedder,2022,1998-04-16,1998,4,2,23.81,"Pinckney, Michigan (USA)",Snowboarding,1,0,False,False,False,False,6.0,True
-149073,James Reed,2022,1991-05-23,1991,5,2,30.7,"Bloomington, Indiana (USA)",,0,0,False,False,False,False,,False
+149073,James Reed,2022,1991-05-23,1991,5,2,30.7,"Bloomington, Indiana (USA)",Bobsleigh,0,0,False,False,False,False,,False
 128763,Jamie Anderson,2022,1990-09-13,1990,9,3,31.39,"South Lake Tahoe, California (USA)",Snowboarding,2,0,False,False,False,False,9.0,True
 149150,Jared Shumate,2022,1999-03-06,1999,3,1,22.92,"Atlanta, Georgia (USA)",Nordic Combined,2,0,False,False,False,False,17.0,True
 128725,Jason Brown,2022,1994-12-15,1994,12,4,27.14,"Los Angeles, California (USA)",Figure Skating,1,0,False,False,False,False,6.0,True
 138352,Jasper Good,2022,1996-05-10,1996,5,2,25.74,"Steamboat Springs, Colorado (USA)",Nordic Combined,1,0,False,False,False,False,34.0,True
-149111,Jean-Luc Baker,2022,1993-10-07,1993,10,4,28.33,"Burnley, England (GBR)",,0,0,False,False,False,False,,False
-149114,Jesse Compher,2022,1999-07-01,1999,7,3,22.6,"Northbrook, Illinois (USA)",,0,0,False,False,False,False,,False
+149111,Jean-Luc Baker,2022,1993-10-07,1993,10,4,28.33,"Burnley, England (GBR)",Figure Skating,0,0,False,False,False,False,,False
+149114,Jesse Compher,2022,1999-07-01,1999,7,3,22.6,"Northbrook, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
 128689,Jessie Diggins,2022,1991-08-26,1991,8,3,30.44,"Minneapolis, Minnesota (USA)",Cross Country Skiing,4,2,True,False,True,True,2.0,True
-149115,Jincy Dunne,2022,1997-05-15,1997,5,2,24.73,"O'Fallon, Missouri (USA)",,0,0,False,False,False,False,,False
+149115,Jincy Dunne,2022,1997-05-15,1997,5,2,24.73,"O'Fallon, Missouri (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138257,Joanne Reid,2022,1992-06-28,1992,6,2,29.6,"Madison, Wisconsin (USA)",Biathlon,3,0,False,False,False,False,29.0,True
 128784,Joey Mantia,2022,1986-02-07,1986,2,1,35.99,"Ocala, Florida (USA)",Speed Skating,2,0,False,False,False,False,4.0,True
-128695,John Landsteiner,2022,1990-05-19,1990,5,2,31.72,"Mankato, Minnesota (USA)",,0,0,False,False,False,False,,False
-110160,John Shuster,2022,1982-11-03,1982,11,4,39.26,"Chisholm, Minnesota (USA)",,0,0,False,False,False,False,,False
+128695,John Landsteiner,2022,1990-05-19,1990,5,2,31.72,"Mankato, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
+110160,John Shuster,2022,1982-11-03,1982,11,4,39.26,"Chisholm, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
 149147,Jonathan Gustafson,2022,1997-03-05,1997,3,1,24.92,"Massena, New York (USA)",Luge,1,0,False,False,False,False,19.0,True
 140168,Jordan Stolz,2022,2004-05-21,2004,5,2,17.71,"West Bend, Wisconsin (USA)",Speed Skating,2,0,False,False,False,False,13.0,True
-149075,Josh Williamson,2022,1996-08-29,1996,8,3,25.43,"Sanford, Florida (USA)",,0,0,False,False,False,False,,False
+149075,Josh Williamson,2022,1996-08-29,1996,8,3,25.43,"Sanford, Florida (USA)",Bobsleigh,0,0,False,False,False,False,,False
 149079,Julia Kern,2022,1997-09-12,1997,9,3,24.4,"Berkeley, California (USA)",Cross Country Skiing,2,0,False,False,False,False,18.0,True
 138364,Julia Marino,2022,1997-09-11,1997,9,3,24.4,"Yonkers, New York (USA)",Snowboarding,2,1,True,False,True,False,2.0,True
 149167,Julie Letai,2022,2000-06-23,2000,6,2,21.62,"Medfield, Massachusetts (USA)",Short Track Speed Skating,1,0,False,False,False,False,21.0,True
-149195,Justin Abdelkader,2022,1987-02-25,1987,2,1,34.94,"Muskegon, Michigan (USA)",,0,0,False,False,False,False,,False
+149195,Justin Abdelkader,2022,1987-02-25,1987,2,1,34.94,"Muskegon, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149103,Justin Schoenefeld,2022,1998-08-13,1998,8,3,23.48,"Erlanger, Kentucky (USA)",Freestyle Skiing,1,0,False,False,False,False,5.0,True
 149096,Kai Owens,2022,2004-08-16,2004,8,3,17.47,"?, Anhui (CHN)",Freestyle Skiing,1,0,False,False,False,False,10.0,True
 149093,Kaila Kuhn,2022,2003-04-08,2003,4,2,18.83,"Boyne City, Michigan (USA)",Freestyle Skiing,1,0,False,False,False,False,8.0,True
 118672,Kaillie Humphries,2022,1985-09-04,1985,9,3,36.42,"Calgary, Alberta (CAN)",Bobsleigh,1,1,True,True,False,False,1.0,True
-149109,Kaitlin Hawayek,2022,1996-11-04,1996,11,4,25.25,"Buffalo, New York (USA)",,0,0,False,False,False,False,,False
+149109,Kaitlin Hawayek,2022,1996-11-04,1996,11,4,25.25,"Buffalo, New York (USA)",Figure Skating,0,0,False,False,False,False,,False
 138301,Karen Chen,2022,1999-08-16,1999,8,3,22.47,"Fremont, California (USA)",Figure Skating,1,0,False,False,False,False,15.0,True
 149061,Katie Hensien,2022,1999-12-01,1999,12,4,22.18,"Redmond, Washington (USA)",Alpine Skiing,1,0,False,False,False,False,26.0,True
 110429,Katie Uhlaender,2022,1984-07-17,1984,7,3,37.55,"Vail, Colorado (USA)",Skeleton,1,0,False,False,False,False,6.0,True
-149069,Kaysha Love,2022,1997-09-24,1997,9,3,24.36,"West Jordan, Utah (USA)",,0,0,False,False,False,False,,False
+149069,Kaysha Love,2022,1997-09-24,1997,9,3,24.36,"West Jordan, Utah (USA)",Bobsleigh,0,0,False,False,False,False,,False
 2302012,Keely Cashman,2022,1999-04-04,1999,4,2,22.84,"Sonora, California (USA)",Alpine Skiing,3,0,False,False,False,False,17.0,True
 149159,Kelly Curtis,2022,1989-01-25,1989,1,1,33.03,"Princeton, New Jersey (USA)",Skeleton,1,0,False,False,False,False,21.0,True
-138317,Kelly Pannek,2022,1995-12-29,1995,12,4,26.1,"Minneapolis, Minnesota (USA)",,0,0,False,False,False,False,,False
-128730,Kendall Coyne Schofield,2022,1992-05-25,1992,5,2,29.7,"Oak Lawn, Illinois (USA)",,0,0,False,False,False,False,,False
-149123,Kenny Agostino,2022,1992-04-30,1992,4,2,29.77,"Morristown, New Jersey (USA)",,0,0,False,False,False,False,,False
+138317,Kelly Pannek,2022,1995-12-29,1995,12,4,26.1,"Minneapolis, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+128730,Kendall Coyne Schofield,2022,1992-05-25,1992,5,2,29.7,"Oak Lawn, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149123,Kenny Agostino,2022,1992-04-30,1992,4,2,29.77,"Morristown, New Jersey (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138357,Kevin Bickner,2022,1996-09-23,1996,9,3,25.37,"Lake Forest, Illinois (USA)",Ski Jumping,2,0,False,False,False,False,39.0,True
 149083,Kevin Bolger,2022,1993-04-11,1993,4,2,28.82,"Minocqua, Wisconsin (USA)",Cross Country Skiing,1,0,False,False,False,False,17.0,True
 149162,Kimi Goetz,2022,1994-08-13,1994,8,3,27.48,"Flemington, New Jersey (USA)",Speed Skating,2,0,False,False,False,False,7.0,True
-149072,Kris Horn,2022,1994-04-25,1994,4,2,27.78,"Weymouth, Massachusetts (USA)",,0,0,False,False,False,False,,False
+149072,Kris Horn,2022,1994-04-25,1994,4,2,27.78,"Weymouth, Massachusetts (USA)",Bobsleigh,0,0,False,False,False,False,,False
 149168,Kristen Santos,2022,1994-11-02,1994,11,4,27.26,"Fairfield, Connecticut (USA)",Short Track Speed Skating,3,0,False,False,False,False,4.0,True
-128737,Lee Stecklein,2022,1994-04-23,1994,4,2,27.79,"South St. Paul, Minnesota (USA)",,0,0,False,False,False,False,,False
+128737,Lee Stecklein,2022,1994-04-23,1994,4,2,27.79,"South St. Paul, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 128680,Leif Nordgren,2022,1989-05-18,1989,5,2,32.72,"Colorado Springs, Colorado (USA)",Biathlon,2,0,False,False,False,False,83.0,True
 110950,Lindsey Jacobellis,2022,1985-08-19,1985,8,3,36.46,"Danbury, Connecticut (USA)",Snowboarding,1,1,True,True,False,False,1.0,True
 149155,Lucas Foster,2022,1999-09-17,1999,9,3,22.38,"Telluride, Colorado (USA)",Snowboarding,1,0,False,False,False,False,17.0,True
@@ -148,38 +148,38 @@ id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,
 138383,Maame Biney,2022,2000-01-28,2000,1,1,22.02,"Accra, Greater Accra (GHA)",Short Track Speed Skating,2,0,False,False,False,False,9.0,True
 149099,Mac Forehand,2022,2001-08-04,2001,8,3,20.5,"Winhall, Vermont (USA)",Freestyle Skiing,2,0,False,False,False,False,11.0,True
 138365,Maddie Mastro,2022,2000-02-22,2000,2,1,21.95,"Wrightwood, California (USA)",Snowboarding,1,0,False,False,False,False,13.0,True
-138321,Maddie Rooney,2022,1997-07-07,1997,7,3,24.58,"Andover, Minnesota (USA)",,0,0,False,False,False,False,,False
-128718,Madison Chock,2022,1992-07-02,1992,7,3,29.59,"Redondo Beach, California (USA)",,0,0,False,False,False,False,,False
-138302,Madison Hubbell,2022,1991-02-24,1991,2,1,30.95,"Lansing, Michigan (USA)",,0,0,False,False,False,False,,False
+138321,Maddie Rooney,2022,1997-07-07,1997,7,3,24.58,"Andover, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+128718,Madison Chock,2022,1992-07-02,1992,7,3,29.59,"Redondo Beach, California (USA)",Figure Skating,0,0,False,False,False,False,,False
+138302,Madison Hubbell,2022,1991-02-24,1991,2,1,30.95,"Lansing, Michigan (USA)",Figure Skating,0,0,False,False,False,False,,False
 138292,Maggie Voisin,2022,1998-12-14,1998,12,4,23.14,"Whitefish, Montana (USA)",Freestyle Skiing,2,0,False,False,False,False,5.0,True
-149136,Marc McLaughlin,2022,1999-07-26,1999,7,3,22.53,"North Billerica, Massachusetts (USA)",,0,0,False,False,False,False,,False
+149136,Marc McLaughlin,2022,1999-07-26,1999,7,3,22.53,"North Billerica, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149107,Mariah Bell,2022,1996-04-18,1996,4,2,25.8,"Tulsa, Oklahoma (USA)",Figure Skating,1,0,False,False,False,False,9.0,True
 149092,Marin Hamill,2022,2001-04-05,2001,4,2,20.84,"Salt Lake City, Utah (USA)",Freestyle Skiing,2,0,False,False,False,False,12.0,True
-138283,Matt Hamilton,2022,1989-02-19,1989,2,1,32.96,"Madison, Wisconsin (USA)",,0,0,False,False,False,False,,False
-149134,Matt Knies,2022,2002-10-17,2002,10,4,19.3,"Phoenix, Arizona (USA)",,0,0,False,False,False,False,,False
-149124,Matty Beniers,2022,2002-11-05,2002,11,4,19.25,"Hingham, Massachusetts (USA)",,0,0,False,False,False,False,,False
-128728,Megan Bozek,2022,1991-03-27,1991,3,1,30.86,"Arlington Heights, Illinois (USA)",,0,0,False,False,False,False,,False
-138315,Megan Keller,2022,1996-05-01,1996,5,2,25.76,"Farmington, Michigan (USA)",,0,0,False,False,False,False,,False
+138283,Matt Hamilton,2022,1989-02-19,1989,2,1,32.96,"Madison, Wisconsin (USA)",Curling,0,0,False,False,False,False,,False
+149134,Matt Knies,2022,2002-10-17,2002,10,4,19.3,"Phoenix, Arizona (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149124,Matty Beniers,2022,2002-11-05,2002,11,4,19.25,"Hingham, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
+128728,Megan Bozek,2022,1991-03-27,1991,3,1,30.86,"Arlington Heights, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
+138315,Megan Keller,2022,1996-05-01,1996,5,2,25.76,"Farmington, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149095,Megan Nick,2022,1996-07-09,1996,7,3,25.57,"Shelburne, Vermont (USA)",Freestyle Skiing,1,1,True,False,False,True,3.0,True
 138366,Meghan Tierney,2022,1997-01-15,1997,1,1,25.05,"Long Branch, New Jersey (USA)",Snowboarding,1,0,False,False,False,False,,True
 138379,Mia Kilburg,2022,1989-10-27,1989,10,4,32.27,"Fort Walton Beach, Florida (USA)",Speed Skating,3,0,False,False,False,False,4.0,True
 138369,Mick Dierdorff,2022,1991-04-30,1991,4,2,30.77,"Bellevue, Washington (USA)",Snowboarding,1,0,False,False,False,False,,True
 128669,Mikaela Shiffrin,2022,1995-03-13,1995,3,1,26.9,"Vail, Colorado (USA)",Alpine Skiing,5,0,False,False,False,False,9.0,True
 138305,Nathan Chen,2022,1999-05-05,1999,5,2,22.75,"Salt Lake City, Utah (USA)",Figure Skating,1,1,True,True,False,False,1.0,True
-149144,Nathan Smith,2022,1998-10-19,1998,10,4,23.3,"Tampa, Florida (USA)",,0,0,False,False,False,False,,False
-149122,Nick Abruzzese,2022,1999-06-04,1999,6,2,22.67,"Slate Hill, New York (USA)",,0,0,False,False,False,False,,False
+149144,Nathan Smith,2022,1998-10-19,1998,10,4,23.3,"Tampa, Florida (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149122,Nick Abruzzese,2022,1999-06-04,1999,6,2,22.67,"Slate Hill, New York (USA)",Ice Hockey,0,0,False,False,False,False,,False
 119606,Nick Baumgartner,2022,1981-12-17,1981,12,4,40.13,"Iron River, Michigan (USA)",Snowboarding,1,0,False,False,False,False,,True
 128711,Nick Goepper,2022,1994-03-14,1994,3,1,27.9,"Fort Wayne, Indiana (USA)",Freestyle Skiing,2,1,True,False,True,False,2.0,True
 149102,Nick Page,2022,2002-08-01,2002,8,3,19.51,"Hollywood, Florida (USA)",Freestyle Skiing,1,0,False,False,False,False,5.0,True
-149141,Nick Perbix,2022,1998-06-15,1998,6,2,23.64,"Elk River, Minnesota (USA)",,0,0,False,False,False,False,,False
-149143,Nick Shore,2022,1992-09-26,1992,9,3,29.36,"Denver, Colorado (USA)",,0,0,False,False,False,False,,False
-138314,Nicole Hensley,2022,1994-06-23,1994,6,2,27.62,"Littleton, Colorado (USA)",,0,0,False,False,False,False,,False
+149141,Nick Perbix,2022,1998-06-15,1998,6,2,23.64,"Elk River, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149143,Nick Shore,2022,1992-09-26,1992,9,3,29.36,"Denver, Colorado (USA)",Ice Hockey,0,0,False,False,False,False,,False
+138314,Nicole Hensley,2022,1994-06-23,1994,6,2,27.62,"Littleton, Colorado (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149065,Nina O'Brien,2022,1997-11-29,1997,11,4,24.18,"San Francisco, California (USA)",Alpine Skiing,1,0,False,False,False,False,,True
-138281,Nina Roth,2022,1988-07-21,1988,7,3,33.54,"Madison, Wisconsin (USA)",,0,0,False,False,False,False,,False
-149126,Noah Cates,2022,1999-02-05,1999,2,1,23.0,"Stillwater, Minnesota (USA)",,0,0,False,False,False,False,,False
+138281,Nina Roth,2022,1988-07-21,1988,7,3,33.54,"Madison, Wisconsin (USA)",Curling,0,0,False,False,False,False,,False
+149126,Noah Cates,2022,1999-02-05,1999,2,1,23.0,"Stillwater, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149081,Novie McCabe,2022,2001-12-15,2001,12,4,20.14,"Winthrop, Washington (USA)",Cross Country Skiing,2,0,False,False,False,False,18.0,True
 149091,Olivia Giaccio,2022,2000-08-15,2000,8,3,21.47,"Mount Kisco, New York (USA)",Freestyle Skiing,1,0,False,False,False,False,6.0,True
-149139,Pat Nagle,2022,1987-09-21,1987,9,3,34.37,"West Bloomfield Township, Michigan (USA)",,0,0,False,False,False,False,,False
+149139,Pat Nagle,2022,1987-09-21,1987,9,3,34.37,"West Bloomfield Township, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149158,Patrick Gasienica,2022,1998-11-28,1998,11,4,23.19,"McHenry, Illinois (USA)",Ski Jumping,2,0,False,False,False,False,49.0,True
 149078,Paul Schommer,2022,1992-06-06,1992,6,2,29.66,"Appleton, Wisconsin (USA)",Biathlon,2,0,False,False,False,False,35.0,True
 149064,Paula Moltzan,2022,1994-04-07,1994,4,2,27.83,"Robbinsdale, Minnesota (USA)",Alpine Skiing,2,0,False,False,False,False,8.0,True
@@ -189,47 +189,47 @@ id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,
 138267,Rosie Brennan,2022,1988-12-02,1988,12,4,33.17,"Salt Lake City, Utah (USA)",Cross Country Skiing,4,0,False,False,False,False,4.0,True
 138251,Ryan Cochran-Siegle,2022,1992-03-27,1992,3,1,29.86,"Burlington, Vermont (USA)",Alpine Skiing,3,1,True,False,True,False,2.0,True
 1800042,Ryan Pivirotto,2022,1995-05-14,1995,5,2,26.73,"Ann Arbor, Michigan (USA)",Short Track Speed Skating,3,0,False,False,False,False,13.0,True
-149132,Sam Hentges,2022,1999-07-26,1999,7,3,22.53,"New Brighton, Minnesota (USA)",,0,0,False,False,False,False,,False
-149116,Savannah Harmon,2022,1995-10-27,1995,10,4,26.28,"Downers Grove, Illinois (USA)",,0,0,False,False,False,False,,False
+149132,Sam Hentges,2022,1999-07-26,1999,7,3,22.53,"New Brighton, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149116,Savannah Harmon,2022,1995-10-27,1995,10,4,26.28,"Downers Grove, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138276,Scott Patterson,2022,1992-01-28,1992,1,1,30.02,"McCall, Idaho (USA)",Cross Country Skiing,3,0,False,False,False,False,8.0,True
 128679,Sean Doherty,2022,1995-06-08,1995,6,2,26.66,"North Conway, New Hampshire (USA)",Biathlon,3,0,False,False,False,False,42.0,True
-149130,Sean Farrell,2022,2001-11-02,2001,11,4,20.26,"Hopkinton, Massachusetts (USA)",,0,0,False,False,False,False,,False
+149130,Sean Farrell,2022,2001-11-02,2001,11,4,20.26,"Hopkinton, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149154,Sean FitzSimons,2022,2000-09-22,2000,9,3,21.37,"Hood River, Oregon (USA)",Snowboarding,2,0,False,False,False,False,12.0,True
-149148,Sean Hollander,2022,2000-02-11,2000,2,1,21.98,"Lake Placid, New York (USA)",,0,0,False,False,False,False,,False
+149148,Sean Hollander,2022,2000-02-11,2000,2,1,21.98,"Lake Placid, New York (USA)",Luge,0,0,False,False,False,False,,False
 109860,Shaun White,2022,1986-09-03,1986,9,3,35.42,"San Diego, California (USA)",Snowboarding,1,0,False,False,False,False,4.0,True
 149080,Sophia Laukli,2022,2000-06-08,2000,6,2,21.66,"Framingham, Massachusetts (USA)",Cross Country Skiing,1,0,False,False,False,False,15.0,True
 149151,Stacy Gaskill,2022,2000-05-21,2000,5,2,21.71,"Denver, Colorado (USA)",Snowboarding,1,0,False,False,False,False,7.0,True
 149149,Stephan Schumann,2022,2000-03-14,2000,3,1,21.89,"Salt Lake City, Utah (USA)",Nordic Combined,1,0,False,False,False,False,25.0,True
-149133,Steven Kampfer,2022,1988-09-24,1988,9,3,33.36,"Jackson, Michigan (USA)",,0,0,False,False,False,False,,False
-149135,Strauss Mann,2022,1998-08-18,1998,8,3,23.47,"Greenwich, Connecticut (USA)",,0,0,False,False,False,False,,False
+149133,Steven Kampfer,2022,1988-09-24,1988,9,3,33.36,"Jackson, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149135,Strauss Mann,2022,1998-08-18,1998,8,3,23.47,"Greenwich, Connecticut (USA)",Ice Hockey,0,0,False,False,False,False,,False
 128750,Summer Britcher,2022,1994-03-21,1994,3,1,27.88,"Baltimore, Maryland (USA)",Luge,1,0,False,False,False,False,23.0,True
 128677,Susan Dunklee,2022,1986-02-13,1986,2,1,35.98,"Newport, Vermont (USA)",Biathlon,3,0,False,False,False,False,27.0,True
-149068,Sylvia Hoffman,2022,1989-06-29,1989,6,2,32.6,"Philadelphia, Pennsylvania (USA)",,0,0,False,False,False,False,,False
-138280,Tabitha Peterson-Lovick,2022,1989-03-06,1989,3,1,32.92,"Burnsville, Minnesota (USA)",,0,0,False,False,False,False,,False
-149089,Tara Peterson,2022,1991-05-28,1991,5,2,30.69,"Burnsville, Minnesota (USA)",,0,0,False,False,False,False,,False
+149068,Sylvia Hoffman,2022,1989-06-29,1989,6,2,32.6,"Philadelphia, Pennsylvania (USA)",Bobsleigh,0,0,False,False,False,False,,False
+138280,Tabitha Peterson-Lovick,2022,1989-03-06,1989,3,1,32.92,"Burnsville, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
+149089,Tara Peterson,2022,1991-05-28,1991,5,2,30.69,"Burnsville, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
 119483,Taylor Fletcher,2022,1990-05-11,1990,5,2,31.74,"Steamboat Springs, Colorado (USA)",Nordic Combined,2,0,False,False,False,False,23.0,True
 139954,Tessa Maud,2022,2003-10-10,2003,10,4,18.32,"Encinitas, California (USA)",Snowboarding,1,0,False,False,False,False,16.0,True
-149113,Timothy LeDuc,2022,1990-05-04,1990,5,2,31.76,"Cedar Rapids, Iowa (USA)",,0,0,False,False,False,False,,False
+149113,Timothy LeDuc,2022,1990-05-04,1990,5,2,31.76,"Cedar Rapids, Iowa (USA)",Figure Skating,0,0,False,False,False,False,,False
 118481,Tommy Ford,2022,1989-03-20,1989,3,1,32.88,"Hanover, New Hampshire (USA)",Alpine Skiing,1,0,False,False,False,False,12.0,True
 128672,Travis Ganong,2022,1988-07-14,1988,7,3,33.56,"Truckee, California (USA)",Alpine Skiing,2,0,False,False,False,False,12.0,True
 138396,Tricia Mangan,2022,1997-03-07,1997,3,1,24.91,"Buffalo, New York (USA)",Alpine Skiing,1,0,False,False,False,False,11.0,True
 128755,Tucker West,2022,1995-06-15,1995,6,2,26.64,"Ridgefield, Connecticut (USA)",Luge,1,0,False,False,False,False,13.0,True
 128772,Ty Gold,2022,1993-11-17,1993,11,4,28.22,"Steamboat Springs, Colorado (USA)",Snowboarding,1,0,False,False,False,False,5.0,True
 149106,Tyler Wallasch,2022,1994-06-08,1994,6,2,27.66,"Los Angeles, California (USA)",Freestyle Skiing,1,0,False,False,False,False,28.0,True
-149088,Vicky Persinger,2022,1992-06-01,1992,6,2,29.68,"Fairbanks, Alaska (USA)",,0,0,False,False,False,False,,False
+149088,Vicky Persinger,2022,1992-06-01,1992,6,2,29.68,"Fairbanks, Alaska (USA)",Curling,0,0,False,False,False,False,,False
 138309,Vincent Zhou,2022,2000-10-25,2000,10,4,21.28,"San José, California (USA)",Figure Skating,1,0,False,False,False,False,,True
 149098,Winter Vinecki,2022,1998-12-18,1998,12,4,23.13,"Grand Rapids, Michigan (USA)",Freestyle Skiing,1,0,False,False,False,False,15.0,True
-138306,Zach Donohue,2022,1991-01-08,1991,1,1,31.07,"Hartford, Connecticut (USA)",,0,0,False,False,False,False,,False
-149146,Zachary DiGregorio,2022,2001-11-14,2001,11,4,20.22,"West Medway, Massachusetts (USA)",,0,0,False,False,False,False,,False
+138306,Zach Donohue,2022,1991-01-08,1991,1,1,31.07,"Hartford, Connecticut (USA)",Figure Skating,0,0,False,False,False,False,,False
+149146,Zachary DiGregorio,2022,2001-11-14,2001,11,4,20.22,"West Medway, Massachusetts (USA)",Luge,0,0,False,False,False,False,,False
 149152,Zoe Kalapos,2022,1997-04-17,1997,4,2,24.8,"Detroit, Michigan (USA)",Snowboarding,1,0,False,False,False,False,17.0,True
 149062,A. J. Hurt,2026,2000-12-05,2000,12,4,25.17,"Truckee, California (USA)",Alpine Skiing,2,0,False,False,False,False,19.0,True
-149118,Abbey Murphy,2026,2002-04-14,2002,4,2,23.82,"Evergreen Park, Illinois (USA)",,0,0,False,False,False,False,,False
+149118,Abbey Murphy,2026,2002-04-14,2002,4,2,23.82,"Evergreen Park, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157220,Abby Winterberger,2026,2010-05-01,2010,5,2,15.77,,Freestyle Skiing,1,0,False,False,False,False,15.0,True
-157231,Aerin Frankel,2026,1999-05-24,1999,5,2,26.71,"New York, New York (USA)",,0,0,False,False,False,False,,False
-157265,Aidan Oldenburg,2026,2001-06-22,2001,6,2,24.63,"Blue Earth, Minnesota (USA)",,0,0,False,False,False,False,,False
-138278,Aileen Geving,2026,1987-02-13,1987,2,1,38.98,"Duluth, Minnesota (USA)",,0,0,False,False,False,False,,False
+157231,Aerin Frankel,2026,1999-05-24,1999,5,2,26.71,"New York, New York (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157265,Aidan Oldenburg,2026,2001-06-22,2001,6,2,24.63,"Blue Earth, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
+138278,Aileen Geving,2026,1987-02-13,1987,2,1,38.98,"Duluth, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
 1805512,Alessandro Barbieri,2026,2008-10-05,2008,10,4,17.34,"Portland, Oregon (USA)",Snowboarding,1,0,False,False,False,False,10.0,True
-128729,Alex Carpenter,2026,1994-04-13,1994,4,2,31.82,"Cambridge, Massachusetts (USA)",,0,0,False,False,False,False,,False
+128729,Alex Carpenter,2026,1994-04-13,1994,4,2,31.82,"Cambridge, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138294,Alex Ferreira,2026,1994-08-14,1994,8,3,31.48,"Aspen, Colorado (USA)",Freestyle Skiing,1,1,True,True,False,False,1.0,True
 138295,Alex Hall,2026,1998-09-21,1998,9,3,27.38,"Fairbanks, Alaska (USA)",Freestyle Skiing,2,1,True,False,True,False,2.0,True
 149110,Alysa Liu,2026,2005-08-08,2005,8,3,20.5,"Clovis, California (USA)",Figure Skating,1,1,True,True,False,False,1.0,True
@@ -238,120 +238,120 @@ id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,
 157281,Andrew Torgashev,2026,2001-05-29,2001,5,2,24.69,"Coral Springs, Florida (USA)",Figure Skating,1,0,False,False,False,False,12.0,True
 157248,Anna Gibson,2026,1999-05-07,1999,5,2,26.75,"Jackson, Wyoming (USA)",Ski Mountaineering,1,0,False,False,False,False,9.0,True
 140047,Annika Belshaw,2026,2002-06-13,2002,6,2,23.65,"Steamboat Springs, Colorado (USA)",Ski Jumping,2,0,False,False,False,False,21.0,True
-157303,Ansel Haugsjaa,2026,2004-09-22,2004,9,3,21.37,"Framingham, Massachusetts (USA)",,0,0,False,False,False,False,,False
-157280,Anthony Ponomarenko,2026,2001-01-05,2001,1,1,25.09,"San José, California (USA)",,0,0,False,False,False,False,,False
+157303,Ansel Haugsjaa,2026,2004-09-22,2004,9,3,21.37,"Framingham, Massachusetts (USA)",Luge,0,0,False,False,False,False,,False
+157280,Anthony Ponomarenko,2026,2001-01-05,2001,1,1,25.09,"San José, California (USA)",Figure Skating,0,0,False,False,False,False,,False
 2302054,Ashley Farquharson,2026,1999-03-16,1999,3,1,26.9,"Sacramento, California (USA)",Luge,1,1,True,False,False,True,3.0,True
 157310,Austin Florian,2026,1994-09-12,1994,9,3,31.4,"Southington, Connecticut (USA)",Skeleton,1,0,False,False,False,False,12.0,True
-157291,Auston Matthews,2026,1997-09-17,1997,9,3,28.39,"San Ramon, California (USA)",,0,0,False,False,False,False,,False
-157235,Ava McNaughton,2026,2004-10-27,2004,10,4,21.28,"Wexford, Pennsylvania (USA)",,0,0,False,False,False,False,,False
+157291,Auston Matthews,2026,1997-09-17,1997,9,3,28.39,"San Ramon, California (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157235,Ava McNaughton,2026,2004-10-27,2004,10,4,21.28,"Wexford, Pennsylvania (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157218,Avery Krumme,2026,2008-08-23,2008,8,3,17.46,"Vancouver, British Columbia (CAN)",Freestyle Skiing,2,0,False,False,False,False,11.0,True
-157205,Azaria Hill,2026,1998-06-15,1998,6,2,27.65,,,0,0,False,False,False,False,,False
+157205,Azaria Hill,2026,1998-06-15,1998,6,2,27.65,,Bobsleigh,0,0,False,False,False,False,,False
 157242,Bea Kim,2026,2007-01-25,2007,1,1,19.03,,Snowboarding,1,0,False,False,False,False,8.0,True
 138353,Ben Loomis,2026,1998-06-09,1998,6,2,27.66,"Eau Claire, Wisconsin (USA)",Nordic Combined,2,0,False,False,False,False,17.0,True
 149085,Ben Ogden,2026,2000-02-13,2000,2,1,25.98,"Landgrove, Vermont (USA)",Cross Country Skiing,2,1,True,False,True,False,2.0,True
-2302023,Ben Richardson,2026,1998-10-09,1998,10,4,27.33,"Miami, Florida (USA)",,0,0,False,False,False,False,,False
+2302023,Ben Richardson,2026,1998-10-09,1998,10,4,27.33,"Miami, Florida (USA)",Curling,0,0,False,False,False,False,,False
 2302026,Birk Irving,2026,1999-07-26,1999,7,3,26.54,"Englewood, New Jersey (USA)",Freestyle Skiing,1,0,False,False,False,False,5.0,True
-157255,Boone Niederhofer,2026,1993-09-23,1993,9,3,32.37,"Abilene, Texas (USA)",,0,0,False,False,False,False,,False
-157299,Brady Tkachuk,2026,1999-09-16,1999,9,3,26.39,"Scottsdale, Arizona (USA)",,0,0,False,False,False,False,,False
+157255,Boone Niederhofer,2026,1993-09-23,1993,9,3,32.37,"Abilene, Texas (USA)",Bobsleigh,0,0,False,False,False,False,,False
+157299,Brady Tkachuk,2026,1999-09-16,1999,9,3,26.39,"Scottsdale, Arizona (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157316,Brandon Kim,2026,2001-08-30,2001,8,3,24.44,"Fairfax, Virginia (USA)",Short Track Speed Skating,3,0,False,False,False,False,15.0,True
 138247,Breezy Johnson,2026,1996-01-19,1996,1,1,30.05,"Jackson Hole, Wyoming (USA)",Alpine Skiing,2,1,True,True,False,False,1.0,True
 1806837,Bri Schnorrbusch,2026,2006-01-30,2006,1,1,20.02,"Monroe, New Jersey (USA)",Snowboarding,1,0,False,False,False,False,19.0,True
-157228,Britta Curl-Salemme,2026,2000-03-20,2000,3,1,25.88,"Bismarck, North Dakota (USA)",,0,0,False,False,False,False,,False
+157228,Britta Curl-Salemme,2026,2000-03-20,2000,3,1,25.88,"Bismarck, North Dakota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 128778,Brittany Bowe,2026,1988-02-24,1988,2,1,37.95,"Ocala, Florida (USA)",Speed Skating,2,0,False,False,False,False,4.0,True
-149129,Brock Faber,2026,2002-08-22,2002,8,3,23.46,"Maple Grove, Minnesota (USA)",,0,0,False,False,False,False,,False
-157294,Brock Nelson,2026,1991-10-15,1991,10,4,34.31,"Minneapolis, Minnesota (USA)",,0,0,False,False,False,False,,False
-157257,Bryan Sosoo,2026,1996-12-02,1996,12,4,29.18,? (GHA),,0,0,False,False,False,False,,False
+149129,Brock Faber,2026,2002-08-22,2002,8,3,23.46,"Maple Grove, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157294,Brock Nelson,2026,1991-10-15,1991,10,4,34.31,"Minneapolis, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157257,Bryan Sosoo,2026,1996-12-02,1996,12,4,29.18,? (GHA),Bobsleigh,0,0,False,False,False,False,,False
 138248,Bryce Bennett,2026,1992-07-14,1992,7,3,33.57,"Truckee, California (USA)",Alpine Skiing,1,0,False,False,False,False,13.0,True
-157254,Caleb Furnell,2026,2001-04-20,2001,4,2,24.8,"Kansas City, Missouri (USA)",,0,0,False,False,False,False,,False
+157254,Caleb Furnell,2026,2001-04-20,2001,4,2,24.8,"Kansas City, Missouri (USA)",Bobsleigh,0,0,False,False,False,False,,False
 157311,Cam Smith,2026,1995-09-18,1995,9,3,30.39,"Rockford, Illinois (USA)",Ski Mountaineering,1,0,False,False,False,False,11.0,True
 138808,Campbell Wright,2026,2002-05-25,2002,5,2,23.7,"Rotorua, Bay of Plenty (NZL)",Biathlon,4,0,False,False,False,False,8.0,True
-149117,Caroline Harvey,2026,2002-10-14,2002,10,4,23.32,"Pelham, New Hampshire (USA)",,0,0,False,False,False,False,,False
-157258,Carsten Vissering,2026,1997-05-13,1997,5,2,28.74,,,0,0,False,False,False,False,,False
+149117,Caroline Harvey,2026,2002-10-14,2002,10,4,23.32,"Pelham, New Hampshire (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157258,Carsten Vissering,2026,1997-05-13,1997,5,2,28.74,,Bobsleigh,0,0,False,False,False,False,,False
 149164,Casey Dawson,2026,2000-08-02,2000,8,3,25.51,"Park City, Utah (USA)",Speed Skating,3,0,False,False,False,False,8.0,True
-138310,Cayla Barnes,2026,1999-01-07,1999,1,1,27.08,"Eastvale, California (USA)",,0,0,False,False,False,False,,False
-157292,Charlie McAvoy,2026,1997-12-21,1997,12,4,28.13,"Long Beach, New York (USA)",,0,0,False,False,False,False,,False
+138310,Cayla Barnes,2026,1999-01-07,1999,1,1,27.08,"Eastvale, California (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157292,Charlie McAvoy,2026,1997-12-21,1997,12,4,28.13,"Long Beach, New York (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157271,Charlie Mickel,2026,2004-07-06,2004,7,3,21.59,,Freestyle Skiing,2,0,False,False,False,False,6.0,True
 157305,Chase Blackwell,2026,1999-02-27,1999,2,1,26.94,,Snowboarding,1,0,False,False,False,False,15.0,True
 138372,Chase Josey,2026,1995-03-31,1995,3,1,30.86,"Hailey, Idaho (USA)",Snowboarding,1,0,False,False,False,False,11.0,True
-157239,Chevonne Forgan,2026,2000-06-30,2000,6,2,25.6,"Adelaide, South Australia (AUS)",,0,0,False,False,False,False,,False
+157239,Chevonne Forgan,2026,2000-06-30,2000,6,2,25.6,"Adelaide, South Australia (AUS)",Luge,0,0,False,False,False,False,,False
 138361,Chloe Kim,2026,2000-04-23,2000,4,2,25.79,"Long Beach, California (USA)",Snowboarding,1,1,True,False,True,False,2.0,True
 149100,Chris Lillis,2026,1998-10-04,1998,10,4,27.34,"Rochester, New York (USA)",Freestyle Skiing,1,0,False,False,False,False,8.0,True
-157221,Christina Carreira,2026,2000-04-03,2000,4,2,25.85,"Montréal, Québec (CAN)",,0,0,False,False,False,False,,False
+157221,Christina Carreira,2026,2000-04-03,2000,4,2,25.85,"Montréal, Québec (CAN)",Figure Skating,0,0,False,False,False,False,,False
 157315,Clayton DeClemente,2026,1999-09-16,1999,9,3,26.39,,Short Track Speed Skating,2,0,False,False,False,False,16.0,True
-157288,Clayton Keller,2026,1998-07-29,1998,7,3,27.53,"Chesterfield, Missouri (USA)",,0,0,False,False,False,False,,False
+157288,Clayton Keller,2026,1998-07-29,1998,7,3,27.53,"Chesterfield, Missouri (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149156,Cody Winters,2026,2000-04-20,2000,4,2,25.8,"Steamboat Springs, Colorado (USA)",Snowboarding,2,0,False,False,False,False,21.0,True
 157267,Connor Curran,2026,2004-09-23,2004,9,3,21.37,,Freestyle Skiing,1,0,False,False,False,False,12.0,True
-157286,Connor Hellebuyck,2026,1993-05-19,1993,5,2,32.72,"Commerce Township, Michigan (USA)",,0,0,False,False,False,False,,False
+157286,Connor Hellebuyck,2026,1993-05-19,1993,5,2,32.72,"Commerce Township, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157312,Conor McDermott-Mostowy,2026,1999-01-13,1999,1,1,27.07,"Arlington, Virginia (USA)",Speed Skating,1,0,False,False,False,False,9.0,True
 157313,Cooper McLeod,2026,2001-11-07,2001,11,4,24.25,"Mount Vernon, Washington (USA)",Speed Skating,2,0,False,False,False,False,19.0,True
 149169,Corie Stoddard,2026,2001-08-15,2001,8,3,24.48,"Seattle, Washington (USA)",Short Track Speed Skating,3,1,True,False,False,True,3.0,True
-1800083,Cory Thiesse,2026,1994-12-01,1994,12,4,31.18,"Duluth, Minnesota (USA)",,0,0,False,False,False,False,,False
+1800083,Cory Thiesse,2026,1994-12-01,1994,12,4,31.18,"Duluth, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
 157309,Dan Barefoot,2026,1990-06-04,1990,6,2,35.68,"Geistown, Pennsylvania (USA)",Skeleton,1,0,False,False,False,False,20.0,True
-157264,Danny Casper,2026,2001-06-18,2001,6,2,24.64,"Briarcliff Manor, New York (USA)",,0,0,False,False,False,False,,False
-157279,Danny O'Shea,2026,1991-02-13,1991,2,1,34.98,"Pontiac, Michigan (USA)",,0,0,False,False,False,False,,False
+157264,Danny Casper,2026,2001-06-18,2001,6,2,24.64,"Briarcliff Manor, New York (USA)",Curling,0,0,False,False,False,False,,False
+157279,Danny O'Shea,2026,1991-02-13,1991,2,1,34.98,"Pontiac, Michigan (USA)",Figure Skating,0,0,False,False,False,False,,False
 149076,Deedra Irwin,2026,1992-05-27,1992,5,2,33.7,"Pulaski, Wisconsin (USA)",Biathlon,3,0,False,False,False,False,34.0,True
 157270,Derek Krueger,2026,2003-06-02,2003,6,2,22.68,"Cleveland, Ohio (USA)",Freestyle Skiing,1,0,False,False,False,False,11.0,True
-157290,Dylan Larkin,2026,1996-07-30,1996,7,3,29.52,"Waterford, Michigan (USA)",,0,0,False,False,False,False,,False
+157290,Dylan Larkin,2026,1996-07-30,1996,7,3,29.52,"Waterford, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149105,Dylan Walczyk,2026,1993-06-25,1993,6,2,32.62,"Rochester, New York (USA)",Freestyle Skiing,2,0,False,False,False,False,7.0,True
 118644,Elana Meyers Taylor,2026,1984-10-10,1984,10,4,41.33,"Oceanside, California (USA)",Bobsleigh,1,1,True,True,False,False,1.0,True
-157224,Ellie Kam,2026,2004-12-20,2004,12,4,21.13,"Yokota Air Base, Tokyo, Tokyo (JPN)",,0,0,False,False,False,False,,False
+157224,Ellie Kam,2026,2004-12-20,2004,12,4,21.13,"Yokota Air Base, Tokyo, Tokyo (JPN)",Figure Skating,0,0,False,False,False,False,,False
 128783,Emery Lehman,2026,1996-06-13,1996,6,2,29.65,"Oak Park, Illinois (USA)",Speed Skating,1,0,False,False,False,False,25.0,True
-157226,Emilea Zingas,2026,2002-04-22,2002,4,2,23.79,"Grosse Pointe Farms, Michigan (USA)",,0,0,False,False,False,False,,False
-157222,Emily Chan,2026,1997-08-11,1997,8,3,28.49,"McKinney, Texas (USA)",,0,0,False,False,False,False,,False
+157226,Emilea Zingas,2026,2002-04-22,2002,4,2,23.79,"Grosse Pointe Farms, Michigan (USA)",Figure Skating,0,0,False,False,False,False,,False
+157222,Emily Chan,2026,1997-08-11,1997,8,3,28.49,"McKinney, Texas (USA)",Figure Skating,0,0,False,False,False,False,,False
 138347,Emily Fischnaller,2026,1993-03-16,1993,3,1,32.9,"Portland, Maine (USA)",Luge,1,0,False,False,False,False,12.0,True
 138378,Erin Jackson,2026,1992-09-19,1992,9,3,33.38,"Ocala, Florida (USA)",Speed Skating,2,0,False,False,False,False,5.0,True
 149163,Ethan Cepuran,2026,2000-05-13,2000,5,2,25.74,"Glen Ellyn, Illinois (USA)",Speed Skating,1,0,False,False,False,False,20.0,True
-149166,Eunice Lee,2026,2004-11-11,2004,11,4,21.24,"San Diego, California (USA)",,0,0,False,False,False,False,,False
-119076,Evan Bates,2026,1989-02-23,1989,2,1,36.95,"Ann Arbor, Michigan (USA)",,0,0,False,False,False,False,,False
+149166,Eunice Lee,2026,2004-11-11,2004,11,4,21.24,"San Diego, California (USA)",Short Track Speed Skating,0,0,False,False,False,False,,False
+119076,Evan Bates,2026,1989-02-23,1989,2,1,36.95,"Ann Arbor, Michigan (USA)",Figure Skating,0,0,False,False,False,False,,False
 119570,Faye Thelen,2026,1992-03-24,1992,3,1,33.87,"Salt Lake City, Utah (USA)",Snowboarding,1,0,False,False,False,False,7.0,True
-149071,Frankie Del Duca,2026,1991-07-07,1991,7,3,34.59,"Fort Lauderdale, Florida (USA)",,0,0,False,False,False,False,,False
-149161,Giorgia Birkeland,2026,2002-06-14,2002,6,2,23.65,"Scandiano, Reggio Emilia (ITA)",,0,0,False,False,False,False,,False
+149071,Frankie Del Duca,2026,1991-07-07,1991,7,3,34.59,"Fort Lauderdale, Florida (USA)",Bobsleigh,0,0,False,False,False,False,,False
+149161,Giorgia Birkeland,2026,2002-06-14,2002,6,2,23.65,"Scandiano, Reggio Emilia (ITA)",Speed Skating,0,0,False,False,False,False,,False
 157216,Grace Henderson,2026,2001-04-28,2001,4,2,24.78,"Durham, New Hampshire (USA)",Freestyle Skiing,2,0,False,False,False,False,14.0,True
-149121,Grace Zumwinkle,2026,1999-04-23,1999,4,2,26.79,"Minneapolis, Minnesota (USA)",,0,0,False,False,False,False,,False
+149121,Grace Zumwinkle,2026,1999-04-23,1999,4,2,26.79,"Minneapolis, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157249,Greta Myers,2026,2004-05-22,2004,5,2,21.71,"Lino Lakes, Minnesota (USA)",Speed Skating,3,0,False,False,False,False,12.0,True
 149087,Gus Schumacher,2026,2000-07-25,2000,7,3,25.54,"Madison, Wisconsin (USA)",Cross Country Skiing,4,0,False,False,False,False,13.0,True
-157236,Gwyneth Philips,2026,2000-09-17,2000,9,3,25.39,"Athens, Ohio (USA)",,0,0,False,False,False,False,,False
+157236,Gwyneth Philips,2026,2000-09-17,2000,9,3,25.39,"Athens, Ohio (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157243,Hahna Norman,2026,2004-10-26,2004,10,4,21.28,,Snowboarding,2,0,False,False,False,False,25.0,True
 149082,Hailey Swirbul,2026,1998-07-10,1998,7,3,27.58,"El Jebel, Colorado (USA)",Cross Country Skiing,2,0,False,False,False,False,19.0,True
-157238,Haley Winn,2026,2003-07-14,2003,7,3,22.57,"Rochester, New York (USA)",,0,0,False,False,False,False,,False
+157238,Haley Winn,2026,2003-07-14,2003,7,3,22.57,"Rochester, New York (USA)",Ice Hockey,0,0,False,False,False,False,,False
 1806639,Hanna Percy,2026,2007-07-17,2007,7,3,18.56,,Snowboarding,1,0,False,False,False,False,18.0,True
-157227,Hannah Bilka,2026,2001-03-24,2001,3,1,24.87,"Coppell, Texas (USA)",,0,0,False,False,False,False,,False
-149120,Hayley Scamurra,2026,1994-12-14,1994,12,4,31.15,"Williamsville, New York (USA)",,0,0,False,False,False,False,,False
-119215,Hilary Knight,2026,1989-07-12,1989,7,3,36.57,"Palo Alto, California (USA)",,0,0,False,False,False,False,,False
+157227,Hannah Bilka,2026,2001-03-24,2001,3,1,24.87,"Coppell, Texas (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149120,Hayley Scamurra,2026,1994-12-14,1994,12,4,31.15,"Williamsville, New York (USA)",Ice Hockey,0,0,False,False,False,False,,False
+119215,Hilary Knight,2026,1989-07-12,1989,7,3,36.57,"Palo Alto, California (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157269,Hunter Hess,2026,1998-10-01,1998,10,4,27.35,"Bend, Oregon (USA)",Freestyle Skiing,1,0,False,False,False,False,10.0,True
-157256,Hunter Powell,2026,1996-03-15,1996,3,1,29.9,"Fort Collins, Colorado (USA)",,0,0,False,False,False,False,,False
+157256,Hunter Powell,2026,1996-03-15,1996,3,1,29.9,"Fort Collins, Colorado (USA)",Bobsleigh,0,0,False,False,False,False,,False
 2302020,Hunter Wonders,2026,1998-08-07,1998,8,3,27.5,"Anchorage, Alaska (USA)",Cross Country Skiing,2,0,False,False,False,False,31.0,True
 157277,Ilia Malinin,2026,2004-12-02,2004,12,4,21.18,"Fairfax, Virginia (USA)",Figure Skating,1,0,False,False,False,False,8.0,True
 157245,Iris Pflum,2026,2003-07-13,2003,7,3,22.57,"St. Louis Park, Minnesota (USA)",Snowboarding,1,0,False,False,False,False,30.0,True
 157225,Isabeau Levito,2026,2007-03-03,2007,3,1,18.93,"Philadelphia, Pennsylvania (USA)",Figure Skating,1,0,False,False,False,False,12.0,True
 149066,Isabella Wright,2026,1997-02-10,1997,2,1,28.99,"American Fork, Utah (USA)",Alpine Skiing,1,0,False,False,False,False,21.0,True
 149086,J. C. Schoonmaker,2026,2000-08-12,2000,8,3,25.49,"Truckee, California (USA)",Cross Country Skiing,1,0,False,False,False,False,8.0,True
-157293,J.T. Miller,2026,1993-03-14,1993,3,1,32.9,"East Palestine, Ohio (USA)",,0,0,False,False,False,False,,False
-157296,Jaccob Slavin,2026,1994-05-01,1994,5,2,31.77,"Erie, Colorado (USA)",,0,0,False,False,False,False,,False
-2300991,Jack Eichel,2026,1996-10-28,1996,10,4,29.28,"Chelmsford, Massachusetts (USA)",,0,0,False,False,False,False,,False
-157319,Jack Hughes,2026,2001-05-14,2001,5,2,24.73,"Orlando, Florida (USA)",,0,0,False,False,False,False,,False
+157293,J.T. Miller,2026,1993-03-14,1993,3,1,32.9,"East Palestine, Ohio (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157296,Jaccob Slavin,2026,1994-05-01,1994,5,2,31.77,"Erie, Colorado (USA)",Ice Hockey,0,0,False,False,False,False,,False
+2300991,Jack Eichel,2026,1996-10-28,1996,10,4,29.28,"Chelmsford, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157319,Jack Hughes,2026,2001-05-14,2001,5,2,24.73,"Orlando, Florida (USA)",Ice Hockey,0,0,False,False,False,False,,False
 128670,Jackie Wiles,2026,1992-07-13,1992,7,3,33.57,"Portland, Oregon (USA)",Alpine Skiing,2,0,False,False,False,False,13.0,True
-157289,Jackson LaCombe,2026,2001-01-09,2001,1,1,25.08,"Eden Prairie, Minnesota (USA)",,0,0,False,False,False,False,,False
-157208,Jadin O'Brien,2026,2002-05-08,2002,5,2,23.75,,,0,0,False,False,False,False,,False
+157289,Jackson LaCombe,2026,2001-01-09,2001,1,1,25.08,"Eden Prairie, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157208,Jadin O'Brien,2026,2002-05-08,2002,5,2,23.75,,Bobsleigh,0,0,False,False,False,False,,False
 138286,Jaelin Kauf,2026,1996-09-26,1996,9,3,29.36,"Vail, Colorado (USA)",Freestyle Skiing,2,2,True,False,True,False,2.0,True
 157306,Jake Canter,2026,2003-07-19,2003,7,3,22.55,,Snowboarding,2,1,True,False,False,True,3.0,True
-157284,Jake Guentzel,2026,1994-10-06,1994,10,4,31.34,"Omaha, Nebraska (USA)",,0,0,False,False,False,False,,False
-157295,Jake Oettinger,2026,1998-12-18,1998,12,4,27.14,"Lakeville, Minnesota (USA)",,0,0,False,False,False,False,,False
+157284,Jake Guentzel,2026,1994-10-06,1994,10,4,31.34,"Omaha, Nebraska (USA)",Ice Hockey,0,0,False,False,False,False,,False
+157295,Jake Oettinger,2026,1998-12-18,1998,12,4,27.14,"Lakeville, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138376,Jake Pates,2026,1998-07-30,1998,7,3,27.52,"Boulder, Colorado (USA)",Snowboarding,1,0,False,False,False,False,8.0,True
-149142,Jake Sanderson,2026,2002-07-08,2002,7,3,23.58,"Whitefish, Montana (USA)",,0,0,False,False,False,False,,False
+149142,Jake Sanderson,2026,2002-07-08,2002,7,3,23.58,"Whitefish, Montana (USA)",Ice Hockey,0,0,False,False,False,False,,False
 2302065,Jake Vedder,2026,1998-04-16,1998,4,2,27.81,"Pinckney, Michigan (USA)",Snowboarding,1,0,False,False,False,False,11.0,True
-157206,Jasmine Jones,2026,1996-07-09,1996,7,3,29.58,"Greensburg, Pennsylvania (USA)",,0,0,False,False,False,False,,False
+157206,Jasmine Jones,2026,1996-07-09,1996,7,3,29.58,"Greensburg, Pennsylvania (USA)",Bobsleigh,0,0,False,False,False,False,,False
 1805696,Jason Colby,2026,2006-03-30,2006,3,1,19.86,,Ski Jumping,2,0,False,False,False,False,20.0,True
-157297,Jeremy Swayman,2026,1998-11-24,1998,11,4,27.2,"Anchorage, Alaska (USA)",,0,0,False,False,False,False,,False
+157297,Jeremy Swayman,2026,1998-11-24,1998,11,4,27.2,"Anchorage, Alaska (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157244,Jess Perlmutter,2026,2009-12-02,2009,12,4,16.18,,Snowboarding,2,0,False,False,False,False,6.0,True
 128689,Jessie Diggins,2026,1991-08-26,1991,8,3,34.45,"Minneapolis, Minnesota (USA)",Cross Country Skiing,4,1,True,False,False,True,3.0,True
 138257,Joanne Reid,2026,1992-06-28,1992,6,2,33.61,"Madison, Wisconsin (USA)",Biathlon,2,0,False,False,False,False,68.0,True
 157260,John Steel Hagenbuch,2026,2001-10-01,2001,10,4,24.35,"San Francisco, California (USA)",Cross Country Skiing,1,0,False,False,False,False,14.0,True
 149147,Jonathan Gustafson,2026,1997-03-05,1997,3,1,28.93,"Massena, New York (USA)",Luge,1,0,False,False,False,False,11.0,True
 140168,Jordan Stolz,2026,2004-05-21,2004,5,2,21.71,"West Bend, Wisconsin (USA)",Speed Skating,4,3,True,True,True,False,1.0,True
-149075,Josh Williamson,2026,1996-08-29,1996,8,3,29.44,"Sanford, Florida (USA)",,0,0,False,False,False,False,,False
+149075,Josh Williamson,2026,1996-08-29,1996,8,3,29.44,"Sanford, Florida (USA)",Bobsleigh,0,0,False,False,False,False,,False
 1806097,Josie Johnson,2026,2006-10-03,2006,10,4,19.35,"Park City, Utah (USA)",Ski Jumping,2,0,False,False,False,False,27.0,True
-157229,Joy Dunne,2026,2005-06-13,2005,6,2,20.65,"St. Louis, Missouri (USA)",,0,0,False,False,False,False,,False
+157229,Joy Dunne,2026,2005-06-13,2005,6,2,20.65,"St. Louis, Missouri (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149079,Julia Kern,2026,1997-09-12,1997,9,3,28.4,"Berkeley, California (USA)",Cross Country Skiing,2,0,False,False,False,False,6.0,True
 149167,Julie Letai,2026,2000-06-23,2000,6,2,25.62,"Medfield, Massachusetts (USA)",Short Track Speed Skating,2,0,False,False,False,False,16.0,True
 149093,Kaila Kuhn,2026,2003-04-08,2003,4,2,22.83,"Boyne City, Michigan (USA)",Freestyle Skiing,1,0,False,False,False,False,5.0,True
@@ -361,41 +361,41 @@ id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,
 149069,Kaysha Love,2026,1997-09-24,1997,9,3,28.37,"West Jordan, Utah (USA)",Bobsleigh,1,0,False,False,False,False,7.0,True
 2302012,Keely Cashman,2026,1999-04-04,1999,4,2,26.84,"Sonora, California (USA)",Alpine Skiing,1,0,False,False,False,False,15.0,True
 149159,Kelly Curtis,2026,1989-01-25,1989,1,1,37.03,"Princeton, New Jersey (USA)",Skeleton,1,0,False,False,False,False,12.0,True
-138317,Kelly Pannek,2026,1995-12-29,1995,12,4,30.11,"Minneapolis, Minnesota (USA)",,0,0,False,False,False,False,,False
-128730,Kendall Coyne Schofield,2026,1992-05-25,1992,5,2,33.7,"Oak Lawn, Illinois (USA)",,0,0,False,False,False,False,,False
+138317,Kelly Pannek,2026,1995-12-29,1995,12,4,30.11,"Minneapolis, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
+128730,Kendall Coyne Schofield,2026,1992-05-25,1992,5,2,33.7,"Oak Lawn, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138909,Kendall Kramer,2026,2002-06-26,2002,6,2,23.62,"Fairbanks, Alaska (USA)",Cross Country Skiing,2,0,False,False,False,False,26.0,True
 138357,Kevin Bickner,2026,1996-09-23,1996,9,3,29.37,"Lake Forest, Illinois (USA)",Ski Jumping,2,0,False,False,False,False,20.0,True
-157237,Kirsten Simms,2026,2004-08-31,2004,8,3,21.43,"Plymouth, Michigan (USA)",,0,0,False,False,False,False,,False
+157237,Kirsten Simms,2026,2004-08-31,2004,8,3,21.43,"Plymouth, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157273,Konnor Ralph,2026,2003-01-27,2003,1,1,23.03,"Helena, Montana (USA)",Freestyle Skiing,2,0,False,False,False,False,5.0,True
-2300977,Korey Dropkin,2026,1995-06-11,1995,6,2,30.66,"Boston, Massachusetts (USA)",,0,0,False,False,False,False,,False
-149072,Kris Horn,2026,1994-04-25,1994,4,2,31.79,"Weymouth, Massachusetts (USA)",,0,0,False,False,False,False,,False
+2300977,Korey Dropkin,2026,1995-06-11,1995,6,2,30.66,"Boston, Massachusetts (USA)",Curling,0,0,False,False,False,False,,False
+149072,Kris Horn,2026,1994-04-25,1994,4,2,31.79,"Weymouth, Massachusetts (USA)",Bobsleigh,0,0,False,False,False,False,,False
 149168,Kristen Santos-Griswold,2026,1994-11-02,1994,11,4,31.26,"Fairfield, Connecticut (USA)",Short Track Speed Skating,3,0,False,False,False,False,9.0,True
-157283,Kyle Connor,2026,1996-12-09,1996,12,4,29.16,"Clinton, Michigan (USA)",,0,0,False,False,False,False,,False
+157283,Kyle Connor,2026,1996-12-09,1996,12,4,29.16,"Clinton, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157252,Kyle Negomir,2026,1998-10-03,1998,10,4,27.35,,Alpine Skiing,3,0,False,False,False,False,10.0,True
 157214,Kyra Dossa,2026,2004-01-24,2004,1,1,22.04,,Freestyle Skiing,1,0,False,False,False,False,14.0,True
-157230,Laila Edwards,2026,2004-01-25,2004,1,1,22.03,"Cleveland Heights, Ohio (USA)",,0,0,False,False,False,False,,False
+157230,Laila Edwards,2026,2004-01-25,2004,1,1,22.03,"Cleveland Heights, Ohio (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157274,Landon Wendler,2026,2000-10-12,2000,10,4,25.32,"Steamboat Springs, Colorado (USA)",Freestyle Skiing,2,0,False,False,False,False,17.0,True
 157212,Lauren Jortberg,2026,1997-09-28,1997,9,3,28.36,"Boulder, Colorado (USA)",Cross Country Skiing,1,0,False,False,False,False,30.0,True
-128737,Lee Stecklein,2026,1994-04-23,1994,4,2,31.79,"South St. Paul, Minnesota (USA)",,0,0,False,False,False,False,,False
+128737,Lee Stecklein,2026,1994-04-23,1994,4,2,31.79,"South St. Paul, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157241,Lily Dhawornvej,2026,2009-08-14,2009,8,3,16.48,"Littleton, Colorado (USA)",Snowboarding,2,0,False,False,False,False,11.0,True
 101437,Lindsey Vonn,2026,1984-10-18,1984,10,4,41.3,"Saint Paul, Minnesota (USA)",Alpine Skiing,1,0,False,False,False,False,,True
 1806313,Liz Lemley,2026,2006-01-22,2006,1,1,20.04,"Vail, Colorado (USA)",Freestyle Skiing,2,2,True,True,False,True,1.0,True
-2302024,Luc Violette,2026,1999-03-08,1999,3,1,26.92,"Seattle, Washington (USA)",,0,0,False,False,False,False,,False
+2302024,Luc Violette,2026,1999-03-08,1999,3,1,26.92,"Seattle, Washington (USA)",Curling,0,0,False,False,False,False,,False
 157210,Luci Anderson,2026,2000-12-03,2000,12,4,25.18,"St. Louis Park, Minnesota (USA)",Biathlon,2,0,False,False,False,False,79.0,True
 149099,Mac Forehand,2026,2001-08-04,2001,8,3,24.51,"Winhall, Vermont (USA)",Freestyle Skiing,2,1,True,False,True,False,2.0,True
 138365,Maddie Mastro,2026,2000-02-22,2000,2,1,25.96,"Wrightwood, California (USA)",Snowboarding,1,0,False,False,False,False,12.0,True
 157246,Maddy Schaffrick,2026,1994-04-29,1994,4,2,31.78,"Steamboat Springs, Colorado (USA)",Snowboarding,1,0,False,False,False,False,15.0,True
-128718,Madison Chock,2026,1992-07-02,1992,7,3,33.6,"Redondo Beach, California (USA)",,0,0,False,False,False,False,,False
-157304,Marcus Mueller,2026,2005-07-24,2005,7,3,20.54,"Brookfield, Wisconsin (USA)",,0,0,False,False,False,False,,False
+128718,Madison Chock,2026,1992-07-02,1992,7,3,33.6,"Redondo Beach, California (USA)",Figure Skating,0,0,False,False,False,False,,False
+157304,Marcus Mueller,2026,2005-07-24,2005,7,3,20.54,"Brookfield, Wisconsin (USA)",Luge,0,0,False,False,False,False,,False
 157211,Margie Freed,2026,1997-11-10,1997,11,4,28.24,"Denver, Colorado (USA)",Biathlon,2,0,False,False,False,False,21.0,True
 149092,Marin Hamill,2026,2001-04-05,2001,4,2,24.84,"Salt Lake City, Utah (USA)",Freestyle Skiing,2,0,False,False,False,False,16.0,True
 157204,Mary Bocock,2026,2003-10-07,2003,10,4,22.34,,Alpine Skiing,1,0,False,False,False,False,,True
-157282,Matt Boldy,2026,2001-04-05,2001,4,2,24.84,"Millis, Massachusetts (USA)",,0,0,False,False,False,False,,False
+157282,Matt Boldy,2026,2001-04-05,2001,4,2,24.84,"Millis, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
 139817,Matthew Greiner,2026,2003-11-05,2003,11,4,22.26,"Abington, Pennsylvania (USA)",Luge,1,0,False,False,False,False,20.0,True
-157300,Matthew Tkachuk,2026,1997-12-11,1997,12,4,28.16,"Scottsdale, Arizona (USA)",,0,0,False,False,False,False,,False
+157300,Matthew Tkachuk,2026,1997-12-11,1997,12,4,28.16,"Scottsdale, Arizona (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157278,Maxim Naumov,2026,2001-08-01,2001,8,3,24.52,"Hartford, Connecticut (USA)",Figure Skating,1,0,False,False,False,False,20.0,True
 157259,Maxime Germain,2026,2001-08-21,2001,8,3,24.46,"Juneau, Alaska (USA)",Biathlon,2,0,False,False,False,False,66.0,True
-138315,Megan Keller,2026,1996-05-01,1996,5,2,29.77,"Farmington, Michigan (USA)",,0,0,False,False,False,False,,False
+138315,Megan Keller,2026,1996-05-01,1996,5,2,29.77,"Farmington, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138379,Mia Manganello,2026,1989-10-27,1989,10,4,36.28,"Fort Walton Beach, Florida (USA)",Speed Skating,1,1,True,False,False,True,3.0,True
 128669,Mikaela Shiffrin,2026,1995-03-13,1995,3,1,30.9,"Vail, Colorado (USA)",Alpine Skiing,2,1,True,True,False,False,1.0,True
 157247,Mystique Ro,2026,1994-07-18,1994,7,3,31.56,"Oceanside, California (USA)",Skeleton,1,0,False,False,False,False,15.0,True
@@ -405,7 +405,7 @@ id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,
 149102,Nick Page,2026,2002-08-01,2002,8,3,23.52,"Hollywood, Florida (USA)",Freestyle Skiing,2,0,False,False,False,False,7.0,True
 139843,Niklas Malacinski,2026,2003-12-07,2003,12,4,22.17,"Steamboat Springs, Colorado (USA)",Nordic Combined,2,0,False,False,False,False,13.0,True
 149065,Nina O'Brien,2026,1997-11-29,1997,11,4,28.19,"San Francisco, California (USA)",Alpine Skiing,2,0,False,False,False,False,20.0,True
-157285,Noah Hanifin,2026,1997-01-25,1997,1,1,29.03,"Boston, Massachusetts (USA)",,0,0,False,False,False,False,,False
+157285,Noah Hanifin,2026,1997-01-25,1997,1,1,29.03,"Boston, Massachusetts (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149081,Novie McCabe,2026,2001-12-15,2001,12,4,24.15,"Winthrop, Washington (USA)",Cross Country Skiing,2,0,False,False,False,False,26.0,True
 1806403,Oliver Martin,2026,2008-06-15,2008,6,2,17.65,"Wellington, Wellington (NZL)",Snowboarding,2,0,False,False,False,False,4.0,True
 149091,Olivia Giaccio,2026,2000-08-15,2000,8,3,25.48,"Mount Kisco, New York (USA)",Freestyle Skiing,2,0,False,False,False,False,6.0,True
@@ -413,13 +413,13 @@ id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,
 149078,Paul Schommer,2026,1992-06-06,1992,6,2,33.67,"Appleton, Wisconsin (USA)",Biathlon,3,0,False,False,False,False,44.0,True
 149064,Paula Moltzan,2026,1994-04-07,1994,4,2,31.84,"Robbinsdale, Minnesota (USA)",Alpine Skiing,2,0,False,False,False,False,8.0,True
 157268,Quinn Dehlinger,2026,2002-06-08,2002,6,2,23.67,"Cincinnati, Ohio (USA)",Freestyle Skiing,1,0,False,False,False,False,,True
-157287,Quinn Hughes,2026,1999-10-14,1999,10,4,26.32,"Orlando, Florida (USA)",,0,0,False,False,False,False,,False
+157287,Quinn Hughes,2026,1999-10-14,1999,10,4,26.32,"Orlando, Florida (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138371,Red Gerard,2026,2000-06-29,2000,6,2,25.61,"Westlake, Ohio (USA)",Snowboarding,2,0,False,False,False,False,6.0,True
 157215,Rell Harwood,2026,2001-06-01,2001,6,2,24.68,"Park City, Utah (USA)",Freestyle Skiing,2,0,False,False,False,False,23.0,True
-157266,Rich Ruohonen,2026,1971-03-31,1971,3,1,54.86,"Saint Paul, Minnesota (USA)",,0,0,False,False,False,False,,False
+157266,Rich Ruohonen,2026,1971-03-31,1971,3,1,54.86,"Saint Paul, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
 140320,Riley Jacobs,2026,2003-08-14,2003,8,3,22.48,"Steamboat Springs, Colorado (USA)",Freestyle Skiing,1,0,False,False,False,False,18.0,True
 2302013,River Radamus,2026,1998-02-12,1998,2,1,27.98,"Edwards, Colorado (USA)",Alpine Skiing,3,0,False,False,False,False,17.0,True
-157232,Rory Guilday,2026,2002-09-07,2002,9,3,23.42,"Chanhassen, Minnesota (USA)",,0,0,False,False,False,False,,False
+157232,Rory Guilday,2026,2002-09-07,2002,9,3,23.42,"Chanhassen, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138267,Rosie Brennan,2026,1988-12-02,1988,12,4,37.18,"Salt Lake City, Utah (USA)",Cross Country Skiing,2,0,False,False,False,False,15.0,True
 138251,Ryan Cochran-Siegle,2026,1992-03-27,1992,3,1,33.86,"Burlington, Vermont (USA)",Alpine Skiing,2,1,True,False,True,False,2.0,True
 157253,Ryder Sarchett,2026,2003-07-28,2003,7,3,22.53,"Ketchum, Idaho (USA)",Alpine Skiing,1,0,False,False,False,False,25.0,True
@@ -428,27 +428,27 @@ id,name,games_year,birth_date,birth_year,birth_month,birth_quarter,age_at_games,
 2301021,Sarah Warren,2026,1996-06-20,1996,6,2,29.63,"Willowbrook, Illinois (USA)",Speed Skating,1,0,False,False,False,False,28.0,True
 128679,Sean Doherty,2026,1995-06-08,1995,6,2,30.67,"North Conway, New Hampshire (USA)",Biathlon,2,0,False,False,False,False,65.0,True
 149154,Sean FitzSimons,2026,2000-09-22,2000,9,3,25.37,"Hood River, Oregon (USA)",Snowboarding,2,0,False,False,False,False,25.0,True
-149148,Sean Hollander,2026,2000-02-11,2000,2,1,25.99,"Lake Placid, New York (USA)",,0,0,False,False,False,False,,False
-157240,Sophia Kirkby,2026,2001-06-14,2001,6,2,24.65,"Ray Brook, New York (USA)",,0,0,False,False,False,False,,False
-157275,Spencer Howe,2026,1996-09-11,1996,9,3,29.4,"Burbank, California (USA)",,0,0,False,False,False,False,,False
+149148,Sean Hollander,2026,2000-02-11,2000,2,1,25.99,"Lake Placid, New York (USA)",Luge,0,0,False,False,False,False,,False
+157240,Sophia Kirkby,2026,2001-06-14,2001,6,2,24.65,"Ray Brook, New York (USA)",Luge,0,0,False,False,False,False,,False
+157275,Spencer Howe,2026,1996-09-11,1996,9,3,29.4,"Burbank, California (USA)",Figure Skating,0,0,False,False,False,False,,False
 149151,Stacy Gaskill,2026,2000-05-21,2000,5,2,25.71,"Denver, Colorado (USA)",Snowboarding,1,0,False,False,False,False,14.0,True
 128750,Summer Britcher,2026,1994-03-21,1994,3,1,31.88,"Baltimore, Maryland (USA)",Luge,1,0,False,False,False,False,14.0,True
 157217,Svea Irving,2026,2002-02-27,2002,2,1,23.94,,Freestyle Skiing,1,0,False,False,False,False,11.0,True
-138280,Tabitha Peterson-Lovick,2026,1989-03-06,1989,3,1,36.92,"Burnsville, Minnesota (USA)",,0,0,False,False,False,False,,False
-157298,Tage Thompson,2026,1997-10-30,1997,10,4,28.27,"Phoenix, Arizona (USA)",,0,0,False,False,False,False,,False
-149089,Tara Peterson,2026,1991-05-28,1991,5,2,34.7,"Burnsville, Minnesota (USA)",,0,0,False,False,False,False,,False
+138280,Tabitha Peterson-Lovick,2026,1989-03-06,1989,3,1,36.92,"Burnsville, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
+157298,Tage Thompson,2026,1997-10-30,1997,10,4,28.27,"Phoenix, Arizona (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149089,Tara Peterson,2026,1991-05-28,1991,5,2,34.7,"Burnsville, Minnesota (USA)",Curling,0,0,False,False,False,False,,False
 157219,Tasia Tanner,2026,2002-07-26,2002,7,3,23.53,,Freestyle Skiing,1,0,False,False,False,False,11.0,True
 157308,Tate Frantz,2026,2005-03-28,2005,3,1,20.86,"Lake Placid, New York (USA)",Ski Jumping,2,0,False,False,False,False,19.0,True
-2300976,Taylor Anderson-Heide,2026,1995-02-25,1995,2,1,30.95,"Philadelphia, Pennsylvania (USA)",,0,0,False,False,False,False,,False
-157233,Taylor Heise,2026,2000-03-17,2000,3,1,25.89,"Lake City, Minnesota (USA)",,0,0,False,False,False,False,,False
+2300976,Taylor Anderson-Heide,2026,1995-02-25,1995,2,1,30.95,"Philadelphia, Pennsylvania (USA)",Curling,0,0,False,False,False,False,,False
+157233,Taylor Heise,2026,2000-03-17,2000,3,1,25.89,"Lake City, Minnesota (USA)",Ice Hockey,0,0,False,False,False,False,,False
 138285,Tess Johnson,2026,2000-06-19,2000,6,2,25.63,"Vail, Colorado (USA)",Freestyle Skiing,2,0,False,False,False,False,5.0,True
-157234,Tessa Janecke,2026,2004-05-12,2004,5,2,21.74,"Orangeville, Illinois (USA)",,0,0,False,False,False,False,,False
+157234,Tessa Janecke,2026,2004-05-12,2004,5,2,21.74,"Orangeville, Illinois (USA)",Ice Hockey,0,0,False,False,False,False,,False
 157272,Troy Podmilsak,2026,2004-08-23,2004,8,3,21.46,"Park City, Utah (USA)",Freestyle Skiing,2,0,False,False,False,False,4.0,True
-157276,Vadym Kolesnik,2026,2001-10-27,2001,10,4,24.28,"Kharkiv, Kharkiv (UKR)",,0,0,False,False,False,False,,False
-157301,Vincent Trocheck,2026,1993-07-11,1993,7,3,32.57,"Pittsburgh, Pennsylvania (USA)",,0,0,False,False,False,False,,False
+157276,Vadym Kolesnik,2026,2001-10-27,2001,10,4,24.28,"Kharkiv, Kharkiv (UKR)",Figure Skating,0,0,False,False,False,False,,False
+157301,Vincent Trocheck,2026,1993-07-11,1993,7,3,32.57,"Pittsburgh, Pennsylvania (USA)",Ice Hockey,0,0,False,False,False,False,,False
 149098,Winter Vinecki,2026,1998-12-18,1998,12,4,27.14,"Grand Rapids, Michigan (USA)",Freestyle Skiing,1,0,False,False,False,False,6.0,True
 157314,Zach Stoppelmoor,2026,1999-05-11,1999,5,2,26.74,,Speed Skating,1,0,False,False,False,False,27.0,True
-157302,Zach Werenski,2026,1997-07-19,1997,7,3,28.55,"Grosse Pointe, Michigan (USA)",,0,0,False,False,False,False,,False
-149146,Zachary DiGregorio,2026,2001-11-14,2001,11,4,24.23,"West Medway, Massachusetts (USA)",,0,0,False,False,False,False,,False
+157302,Zach Werenski,2026,1997-07-19,1997,7,3,28.55,"Grosse Pointe, Michigan (USA)",Ice Hockey,0,0,False,False,False,False,,False
+149146,Zachary DiGregorio,2026,2001-11-14,2001,11,4,24.23,"West Medway, Massachusetts (USA)",Luge,0,0,False,False,False,False,,False
 157261,Zak Ketterson,2026,1997-04-02,1997,4,2,28.85,"Bloomington, Minnesota (USA)",Cross Country Skiing,3,0,False,False,False,False,28.0,True
 157262,Zanden McMullen,2026,2001-05-31,2001,5,2,24.69,"Anchorage, Alaska (USA)",Cross Country Skiing,2,0,False,False,False,False,32.0,True

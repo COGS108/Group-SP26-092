@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import math
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -23,6 +25,61 @@ COLORS = {
     "positive": "#2f6f73",
     "negative": "#c75d5d",
     "gray": "#687076",
+    "light_gray": "#d8d2c4",
+}
+
+STATE_ABBREVIATIONS = {
+    "Alabama": "AL",
+    "Alaska": "AK",
+    "Arizona": "AZ",
+    "Arkansas": "AR",
+    "California": "CA",
+    "Colorado": "CO",
+    "Connecticut": "CT",
+    "Delaware": "DE",
+    "District of Columbia": "DC",
+    "Florida": "FL",
+    "Georgia": "GA",
+    "Hawaii": "HI",
+    "Idaho": "ID",
+    "Illinois": "IL",
+    "Indiana": "IN",
+    "Iowa": "IA",
+    "Kansas": "KS",
+    "Kentucky": "KY",
+    "Louisiana": "LA",
+    "Maine": "ME",
+    "Maryland": "MD",
+    "Massachusetts": "MA",
+    "Michigan": "MI",
+    "Minnesota": "MN",
+    "Mississippi": "MS",
+    "Missouri": "MO",
+    "Montana": "MT",
+    "Nebraska": "NE",
+    "Nevada": "NV",
+    "New Hampshire": "NH",
+    "New Jersey": "NJ",
+    "New Mexico": "NM",
+    "New York": "NY",
+    "North Carolina": "NC",
+    "North Dakota": "ND",
+    "Ohio": "OH",
+    "Oklahoma": "OK",
+    "Oregon": "OR",
+    "Pennsylvania": "PA",
+    "Rhode Island": "RI",
+    "South Carolina": "SC",
+    "South Dakota": "SD",
+    "Tennessee": "TN",
+    "Texas": "TX",
+    "Utah": "UT",
+    "Vermont": "VT",
+    "Virginia": "VA",
+    "Washington": "WA",
+    "West Virginia": "WV",
+    "Wisconsin": "WI",
+    "Wyoming": "WY",
 }
 
 
@@ -124,7 +181,7 @@ def by_games_quarter_distribution(athletes: pd.DataFrame) -> pd.DataFrame:
 
 def sport_distribution(athletes: pd.DataFrame) -> pd.DataFrame:
     sports = athletes.copy()
-    sports["sports"] = sports["sports"].fillna("Team sport/no individual result")
+    sports["sports"] = sports["sports"].fillna("Missing sport")
     out = sports["sports"].value_counts().rename_axis("sport").reset_index(name="athlete_count")
     return out.sort_values("athlete_count", ascending=True)
 
@@ -141,6 +198,94 @@ def medal_quarter_distribution(athletes: pd.DataFrame) -> pd.DataFrame:
     totals = out.groupby("quarter_label", observed=True)["athlete_count"].transform("sum")
     out["percent_within_quarter"] = out["athlete_count"] / totals * 100
     return out
+
+
+def athlete_month_by_games(athletes: pd.DataFrame) -> pd.DataFrame:
+    if "month_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
+    out = (
+        athletes.groupby(["games_year", "birth_month", "month_label"], observed=True)
+        .size()
+        .rename("athlete_count")
+        .reset_index()
+        .sort_values(["games_year", "birth_month"])
+    )
+    out["athlete_percent"] = out["athlete_count"] / out.groupby("games_year")["athlete_count"].transform("sum") * 100
+    return out
+
+
+def sport_quarter_distribution(athletes: pd.DataFrame) -> pd.DataFrame:
+    if "quarter_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
+    out = (
+        athletes.groupby(["sports", "birth_quarter", "quarter_label"], observed=True)
+        .size()
+        .rename("athlete_count")
+        .reset_index()
+        .sort_values(["sports", "birth_quarter"])
+    )
+    out["percent_within_sport"] = out["athlete_count"] / out.groupby("sports")["athlete_count"].transform("sum") * 100
+    return out
+
+
+def parse_birth_state(birthplace: object) -> str | None:
+    if not isinstance(birthplace, str) or "(USA)" not in birthplace:
+        return None
+    place = re.sub(r"\s*\(USA\)\s*$", "", birthplace).strip()
+    parts = [part.strip() for part in place.split(",")]
+    if len(parts) < 2:
+        return None
+    return STATE_ABBREVIATIONS.get(parts[-1])
+
+
+def birth_state_distribution(athletes: pd.DataFrame) -> pd.DataFrame:
+    out = athletes.copy()
+    out["birth_state"] = out["birthplace"].map(parse_birth_state)
+    return (
+        out.dropna(subset=["birth_state"])
+        .groupby("birth_state")
+        .size()
+        .rename("athlete_count")
+        .reset_index()
+        .sort_values("athlete_count", ascending=False)
+    )
+
+
+def density_curve(values: pd.Series, points: int = 140) -> tuple[list[float], list[float]]:
+    clean = [float(v) for v in values.dropna()]
+    if len(clean) < 2:
+        return clean, [0.0 for _ in clean]
+    low = min(clean)
+    high = max(clean)
+    if math.isclose(low, high):
+        return [low], [1.0]
+    mean = sum(clean) / len(clean)
+    variance = sum((v - mean) ** 2 for v in clean) / (len(clean) - 1)
+    std = math.sqrt(variance) or 1.0
+    bandwidth = 1.06 * std * (len(clean) ** -0.2)
+    if not math.isfinite(bandwidth) or bandwidth <= 0:
+        bandwidth = 1.0
+    xs = [low + (high - low) * i / (points - 1) for i in range(points)]
+    coef = 1 / (len(clean) * bandwidth * math.sqrt(2 * math.pi))
+    ys = []
+    for x in xs:
+        density = sum(math.exp(-0.5 * ((x - v) / bandwidth) ** 2) for v in clean) * coef
+        ys.append(density)
+    return xs, ys
+
+
+def linear_fit(x_values: pd.Series, y_values: pd.Series) -> tuple[list[float], list[float], float]:
+    frame = pd.DataFrame({"x": x_values, "y": y_values}).dropna()
+    if len(frame) < 2:
+        return [], [], float("nan")
+    x_mean = frame["x"].mean()
+    y_mean = frame["y"].mean()
+    denom = ((frame["x"] - x_mean) ** 2).sum()
+    slope = 0.0 if math.isclose(denom, 0.0) else ((frame["x"] - x_mean) * (frame["y"] - y_mean)).sum() / denom
+    intercept = y_mean - slope * x_mean
+    x_line = [float(frame["x"].min()), float(frame["x"].max())]
+    y_line = [intercept + slope * x for x in x_line]
+    return x_line, y_line, float(slope)
 
 
 def fig_month_percent(month_dist: pd.DataFrame) -> dict:
@@ -290,8 +435,8 @@ def fig_age_distribution(athletes: pd.DataFrame) -> dict:
 
 def fig_sport_distribution(sports: pd.DataFrame) -> dict:
     return {
-        "title": "Athlete Count by Sport / Result Category",
-        "description": "Shows the composition of the athlete data. A large sport can heavily influence the overall birth-month pattern.",
+        "title": "Athlete Count by Sport",
+        "description": "Shows the composition of the athlete data after filling missing team-event sports from the roster-page supplement. A large sport can heavily influence the overall birth-month pattern.",
         "data": [
             {
                 "type": "bar",
@@ -339,22 +484,449 @@ def fig_medal_by_quarter(medal_quarter: pd.DataFrame) -> dict:
     }
 
 
+def fig_month_count(month_dist: pd.DataFrame) -> dict:
+    return {
+        "title": "Athlete Count by Birth Month",
+        "description": "Raw count plot of athlete-Games appearances by birth month. This shows the same distribution as the percent plot without normalizing to the U.S. baseline.",
+        "data": [
+            {
+                "type": "bar",
+                "name": "Athletes",
+                "x": month_dist["month_label"].astype(str).tolist(),
+                "y": month_dist["athlete_count"].tolist(),
+                "marker": {"color": COLORS["athletes"]},
+                "hovertemplate": "%{x}<br>Athletes: %{y}<extra></extra>",
+            }
+        ],
+        "layout": {
+            "xaxis": {"title": "Birth month"},
+            "yaxis": {"title": "Athlete count"},
+        },
+    }
+
+
+def fig_month_percent_lines(month_dist: pd.DataFrame) -> dict:
+    return {
+        "title": "Monthly Percent Lines: Athletes vs U.S. Births",
+        "description": "Line-plot version of the core comparison. It makes the direction of the month-to-month differences easy to scan.",
+        "data": [
+            {
+                "type": "scatter",
+                "mode": "lines+markers",
+                "name": "Team USA athletes",
+                "x": month_dist["month_label"].astype(str).tolist(),
+                "y": month_dist["athlete_percent"].round(2).tolist(),
+                "line": {"color": COLORS["athletes"], "width": 3},
+                "hovertemplate": "%{x}<br>Athletes: %{y:.2f}%<extra></extra>",
+            },
+            {
+                "type": "scatter",
+                "mode": "lines+markers",
+                "name": "U.S. births baseline",
+                "x": month_dist["month_label"].astype(str).tolist(),
+                "y": month_dist["percent_births"].round(2).tolist(),
+                "line": {"color": COLORS["us"], "width": 3},
+                "hovertemplate": "%{x}<br>U.S. births: %{y:.2f}%<extra></extra>",
+            },
+        ],
+        "layout": {
+            "xaxis": {"title": "Birth month"},
+            "yaxis": {"title": "Percent of group", "ticksuffix": "%"},
+        },
+    }
+
+
+def fig_age_density(athletes: pd.DataFrame) -> dict:
+    data = []
+    for year, frame in athletes.groupby("games_year"):
+        xs, ys = density_curve(frame["age_at_games"])
+        data.append(
+            {
+                "type": "scatter",
+                "mode": "lines",
+                "name": str(year),
+                "x": [round(x, 2) for x in xs],
+                "y": [round(y, 4) for y in ys],
+                "fill": "tozeroy",
+                "opacity": 0.55,
+                "hovertemplate": "Age: %{x:.2f}<br>Density: %{y:.4f}<extra></extra>",
+            }
+        )
+    return {
+        "title": "Age Density at Opening Ceremony",
+        "description": "Smoothed density view of athlete age. This complements the histogram by making the age-shape comparison between Games years clearer.",
+        "data": data,
+        "layout": {
+            "xaxis": {"title": "Age at Games"},
+            "yaxis": {"title": "Estimated density"},
+            "colorway": [COLORS["games_2022"], COLORS["games_2026"]],
+        },
+    }
+
+
+def fig_age_box_by_quarter(athletes: pd.DataFrame) -> dict:
+    if "quarter_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
+    data = []
+    for quarter in QUARTER_LABELS:
+        frame = athletes[athletes["quarter_label"].astype(str) == quarter]
+        data.append(
+            {
+                "type": "box",
+                "name": quarter,
+                "y": frame["age_at_games"].round(2).tolist(),
+                "marker": {"color": COLORS["athletes"]},
+                "boxmean": True,
+                "hovertemplate": f"{quarter}<br>Age: %{{y:.2f}}<extra></extra>",
+            }
+        )
+    return {
+        "title": "Age Outliers by Birth Quarter",
+        "description": "Box plot of age by birth quarter. This checks whether unusual ages are concentrated in one birth-quarter group.",
+        "data": data,
+        "layout": {
+            "xaxis": {"title": "Birth quarter"},
+            "yaxis": {"title": "Age at Games"},
+        },
+    }
+
+
+def fig_age_violin_by_quarter(athletes: pd.DataFrame) -> dict:
+    if "quarter_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
+    data = []
+    for quarter in QUARTER_LABELS:
+        frame = athletes[athletes["quarter_label"].astype(str) == quarter]
+        data.append(
+            {
+                "type": "violin",
+                "name": quarter,
+                "y": frame["age_at_games"].round(2).tolist(),
+                "box": {"visible": True},
+                "meanline": {"visible": True},
+                "points": False,
+                "hovertemplate": f"{quarter}<br>Age: %{{y:.2f}}<extra></extra>",
+            }
+        )
+    return {
+        "title": "Age Distribution Shape by Birth Quarter",
+        "description": "Violin plot showing the full age distribution inside each birth quarter, including spread and central tendency.",
+        "data": data,
+        "layout": {
+            "xaxis": {"title": "Birth quarter"},
+            "yaxis": {"title": "Age at Games"},
+            "colorway": ["#4f7cac", "#2f6f73", "#8c6bb1", "#c44e52"],
+        },
+    }
+
+
+def fig_age_strip_by_quarter(athletes: pd.DataFrame) -> dict:
+    if "quarter_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
+    frame = athletes.sort_values(["birth_quarter", "age_at_games", "name"]).reset_index(drop=True)
+    jitter = [((i % 9) - 4) * 0.035 for i in range(len(frame))]
+    x = [float(q) + j for q, j in zip(frame["birth_quarter"], jitter)]
+    return {
+        "title": "Individual Athlete Ages by Birth Quarter",
+        "description": "Strip plot of individual athlete-Games rows. Each point is one athlete appearance, which helps reveal outliers hidden by aggregate summaries.",
+        "data": [
+            {
+                "type": "scatter",
+                "mode": "markers",
+                "name": "Athlete-Games",
+                "x": x,
+                "y": frame["age_at_games"].round(2).tolist(),
+                "customdata": frame[["name", "games_year", "month_label", "sports"]].astype(str).values.tolist(),
+                "marker": {"color": COLORS["athletes"], "opacity": 0.68, "size": 8},
+                "hovertemplate": (
+                    "%{customdata[0]} (%{customdata[1]})"
+                    "<br>Birth month: %{customdata[2]}"
+                    "<br>Sport: %{customdata[3]}"
+                    "<br>Age: %{y:.2f}<extra></extra>"
+                ),
+            }
+        ],
+        "layout": {
+            "xaxis": {"title": "Birth quarter", "tickmode": "array", "tickvals": [1, 2, 3, 4], "ticktext": QUARTER_LABELS},
+            "yaxis": {"title": "Age at Games"},
+        },
+    }
+
+
+def fig_age_birth_month_scatter(athletes: pd.DataFrame) -> dict:
+    if "month_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
+    data = []
+    for year, frame in athletes.groupby("games_year"):
+        frame = frame.sort_values(["birth_month", "age_at_games", "name"]).reset_index(drop=True)
+        jitter = [((i % 7) - 3) * 0.04 for i in range(len(frame))]
+        data.append(
+            {
+                "type": "scatter",
+                "mode": "markers",
+                "name": str(year),
+                "x": [float(month) + j for month, j in zip(frame["birth_month"], jitter)],
+                "y": frame["age_at_games"].round(2).tolist(),
+                "customdata": frame[["name", "month_label", "sports"]].astype(str).values.tolist(),
+                "marker": {"size": 8, "opacity": 0.72},
+                "hovertemplate": (
+                    "%{customdata[0]}<br>Birth month: %{customdata[1]}"
+                    "<br>Sport: %{customdata[2]}"
+                    "<br>Age: %{y:.2f}<extra></extra>"
+                ),
+            }
+        )
+    return {
+        "title": "Age vs Birth Month",
+        "description": "Scatter plot checking whether the birth-month pattern is tangled with athlete age or Games year.",
+        "data": data,
+        "layout": {
+            "xaxis": {"title": "Birth month", "tickmode": "array", "tickvals": list(range(1, 13)), "ticktext": MONTH_LABELS},
+            "yaxis": {"title": "Age at Games"},
+            "colorway": [COLORS["games_2022"], COLORS["games_2026"]],
+        },
+    }
+
+
+def fig_age_birth_month_regression(athletes: pd.DataFrame) -> dict:
+    if "month_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
+    x_line, y_line, slope = linear_fit(athletes["birth_month"], athletes["age_at_games"])
+    return {
+        "title": "Regression Check: Age vs Birth Month",
+        "description": f"Regression-style diagnostic for whether athlete age changes systematically across birth months. The fitted slope is {slope:.3f} age-years per month.",
+        "data": [
+            {
+                "type": "scatter",
+                "mode": "markers",
+                "name": "Athlete-Games",
+                "x": athletes["birth_month"].tolist(),
+                "y": athletes["age_at_games"].round(2).tolist(),
+                "customdata": athletes[["name", "games_year", "month_label", "sports"]].astype(str).values.tolist(),
+                "marker": {"color": COLORS["gray"], "opacity": 0.45, "size": 7},
+                "hovertemplate": (
+                    "%{customdata[0]} (%{customdata[1]})"
+                    "<br>Birth month: %{customdata[2]}"
+                    "<br>Sport: %{customdata[3]}"
+                    "<br>Age: %{y:.2f}<extra></extra>"
+                ),
+            },
+            {
+                "type": "scatter",
+                "mode": "lines",
+                "name": "Linear fit",
+                "x": x_line,
+                "y": [round(y, 2) for y in y_line],
+                "line": {"color": COLORS["negative"], "width": 3},
+                "hovertemplate": "Birth month: %{x:.1f}<br>Fitted age: %{y:.2f}<extra></extra>",
+            },
+        ],
+        "layout": {
+            "xaxis": {"title": "Birth month", "tickmode": "array", "tickvals": list(range(1, 13)), "ticktext": MONTH_LABELS},
+            "yaxis": {"title": "Age at Games"},
+        },
+    }
+
+
+def fig_sport_quarter_heatmap(sport_quarter: pd.DataFrame) -> dict:
+    pivot = (
+        sport_quarter.pivot(index="sports", columns="quarter_label", values="athlete_count")
+        .reindex(columns=QUARTER_LABELS)
+        .fillna(0)
+    )
+    pivot = pivot.loc[pivot.sum(axis=1).sort_values(ascending=True).index]
+    return {
+        "title": "Sport by Birth Quarter Heatmap",
+        "description": "Heatmap of athlete counts by sport and birth quarter. This checks whether the overall quarter pattern is driven by particular sports.",
+        "data": [
+            {
+                "type": "heatmap",
+                "x": pivot.columns.astype(str).tolist(),
+                "y": pivot.index.tolist(),
+                "z": pivot.values.tolist(),
+                "colorscale": [[0, "#f4f8f7"], [1, COLORS["athletes"]]],
+                "hovertemplate": "%{y}<br>%{x}: %{z} athletes<extra></extra>",
+            }
+        ],
+        "layout": {
+            "xaxis": {"title": "Birth quarter"},
+            "yaxis": {"title": "Sport"},
+            "height": 660,
+        },
+    }
+
+
+def fig_games_quarter_point(games_quarter: pd.DataFrame) -> dict:
+    data = []
+    for year, frame in games_quarter.groupby("games_year"):
+        data.append(
+            {
+                "type": "scatter",
+                "mode": "lines+markers",
+                "name": str(year),
+                "x": frame["quarter_label"].astype(str).tolist(),
+                "y": frame["athlete_percent"].round(2).tolist(),
+                "customdata": frame["athlete_count"].tolist(),
+                "marker": {"size": 11},
+                "hovertemplate": "%{fullData.name}<br>%{x}: %{y:.2f}%<br>Count: %{customdata}<extra></extra>",
+            }
+        )
+    return {
+        "title": "Point Plot: Birth Quarter by Games Year",
+        "description": "Point-plot version of the Games-year comparison. Parallel lines suggest the quarter pattern is similar in both rosters.",
+        "data": data,
+        "layout": {
+            "xaxis": {"title": "Birth quarter"},
+            "yaxis": {"title": "Percent within Games year", "ticksuffix": "%"},
+            "colorway": [COLORS["games_2022"], COLORS["games_2026"]],
+        },
+    }
+
+
+def fig_sport_pie(sports: pd.DataFrame) -> dict:
+    top = sports.sort_values("athlete_count", ascending=False).head(8).copy()
+    other_count = sports["athlete_count"].sum() - top["athlete_count"].sum()
+    if other_count > 0:
+        top = pd.concat([top, pd.DataFrame([{"sport": "Other sports", "athlete_count": other_count}])], ignore_index=True)
+    return {
+        "title": "Sport Composition of Athlete-Games Rows",
+        "description": "Pie chart showing roster composition by sport. This is context for interpreting whether one large sport, especially ice hockey, may affect overall birth-month patterns.",
+        "data": [
+            {
+                "type": "pie",
+                "labels": top["sport"].tolist(),
+                "values": top["athlete_count"].tolist(),
+                "hole": 0.38,
+                "sort": False,
+                "hovertemplate": "%{label}<br>Athletes: %{value}<br>Share: %{percent}<extra></extra>",
+            }
+        ],
+        "layout": {
+            "height": 560,
+            "showlegend": True,
+        },
+    }
+
+
+def fig_numeric_pair_plot(athletes: pd.DataFrame) -> dict:
+    if "quarter_label" not in athletes.columns:
+        athletes = add_athlete_display_columns(athletes)
+    dimensions = [
+        {"label": "Birth month", "values": athletes["birth_month"].tolist()},
+        {"label": "Birth year", "values": athletes["birth_year"].tolist()},
+        {"label": "Age at Games", "values": athletes["age_at_games"].round(2).tolist()},
+        {"label": "Events entered", "values": athletes["events_entered"].tolist()},
+        {"label": "Medal count", "values": athletes["medal_count"].tolist()},
+    ]
+    return {
+        "title": "Pair Plot of Numeric Athlete Variables",
+        "description": "Scatter-matrix view of numeric variables. This is a broad relationship scan for age, birth timing, event count, and medal count.",
+        "data": [
+            {
+                "type": "splom",
+                "dimensions": dimensions,
+                "marker": {
+                    "color": athletes["birth_quarter"].tolist(),
+                    "colorscale": [[0, "#4f7cac"], [0.33, "#2f6f73"], [0.66, "#8c6bb1"], [1, "#c44e52"]],
+                    "showscale": False,
+                    "opacity": 0.55,
+                    "size": 6,
+                },
+                "diagonal": {"visible": False},
+                "showupperhalf": False,
+            }
+        ],
+        "layout": {
+            "height": 780,
+        },
+    }
+
+
+def fig_month_by_games_facets(month_games: pd.DataFrame) -> dict:
+    frame_2022 = month_games[month_games["games_year"] == 2022]
+    frame_2026 = month_games[month_games["games_year"] == 2026]
+    return {
+        "title": "Faceted Birth-Month Counts by Games Year",
+        "description": "Facet-style bar charts split by Games year. This checks whether the monthly distribution changes between 2022 and 2026.",
+        "data": [
+            {
+                "type": "bar",
+                "name": "2022",
+                "x": frame_2022["month_label"].astype(str).tolist(),
+                "y": frame_2022["athlete_count"].tolist(),
+                "marker": {"color": COLORS["games_2022"]},
+                "xaxis": "x",
+                "yaxis": "y",
+                "hovertemplate": "2022<br>%{x}: %{y} athletes<extra></extra>",
+            },
+            {
+                "type": "bar",
+                "name": "2026",
+                "x": frame_2026["month_label"].astype(str).tolist(),
+                "y": frame_2026["athlete_count"].tolist(),
+                "marker": {"color": COLORS["games_2026"]},
+                "xaxis": "x2",
+                "yaxis": "y2",
+                "hovertemplate": "2026<br>%{x}: %{y} athletes<extra></extra>",
+            },
+        ],
+        "layout": {
+            "xaxis": {"title": "2022 birth month", "domain": [0.0, 0.47]},
+            "yaxis": {"title": "Athlete count"},
+            "xaxis2": {"title": "2026 birth month", "domain": [0.53, 1.0]},
+            "yaxis2": {"title": "Athlete count", "anchor": "x2", "matches": "y"},
+            "annotations": [
+                {"text": "2022", "x": 0.235, "xref": "paper", "y": 1.08, "yref": "paper", "showarrow": False, "font": {"size": 15}},
+                {"text": "2026", "x": 0.765, "xref": "paper", "y": 1.08, "yref": "paper", "showarrow": False, "font": {"size": 15}},
+            ],
+            "showlegend": False,
+        },
+    }
+
+
+def fig_birth_state_choropleth(state_counts: pd.DataFrame) -> dict:
+    return {
+        "title": "U.S. Birthplace Map for Team USA Winter Olympians",
+        "description": "Choropleth of U.S.-born athlete-Games rows by birth state. This gives geographic context because access to winter sports is not evenly distributed.",
+        "data": [
+            {
+                "type": "choropleth",
+                "locationmode": "USA-states",
+                "locations": state_counts["birth_state"].tolist(),
+                "z": state_counts["athlete_count"].tolist(),
+                "colorscale": [[0, "#f4f8f7"], [1, COLORS["athletes"]]],
+                "colorbar": {"title": "Athletes"},
+                "hovertemplate": "%{location}<br>Athlete-Games: %{z}<extra></extra>",
+            }
+        ],
+        "layout": {
+            "geo": {"scope": "usa"},
+            "height": 580,
+        },
+    }
+
+
 def build_figures() -> tuple[list[dict], dict[str, str]]:
     athletes, us_monthly, us_quarterly = read_data()
     month_dist = athlete_month_distribution(athletes, us_monthly)
     quarter_dist = athlete_quarter_distribution(athletes, us_quarterly)
-    games_quarter = by_games_quarter_distribution(athletes)
     sports = sport_distribution(athletes)
     medal_quarter = medal_quarter_distribution(athletes)
+    sport_quarter = sport_quarter_distribution(athletes)
+    state_counts = birth_state_distribution(athletes)
 
     figures = [
         fig_month_percent(month_dist),
         fig_quarter_percent(quarter_dist),
         fig_observed_minus_expected_month(month_dist),
-        fig_games_year_quarter(games_quarter),
-        fig_age_distribution(athletes),
+        fig_age_density(athletes),
+        fig_age_box_by_quarter(athletes),
+        fig_age_violin_by_quarter(athletes),
         fig_sport_distribution(sports),
+        fig_sport_quarter_heatmap(sport_quarter),
         fig_medal_by_quarter(medal_quarter),
+        fig_numeric_pair_plot(athletes),
+        fig_birth_state_choropleth(state_counts),
     ]
 
     q1 = quarter_dist.loc[quarter_dist["quarter_label"].astype(str) == "Q1"].iloc[0]
